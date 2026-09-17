@@ -318,6 +318,10 @@ table.dir { width: 100%; border-collapse: collapse; }
 .footer a { text-decoration: underline; text-underline-offset: 3px; }
 .footer a:hover { color: var(--pink); }
 .footer code { background: rgba(255,255,255,0.12); color: var(--paper); }
+.footer-brand { display: inline-flex; flex-direction: column; gap: 8px; margin-top: 16px; text-decoration: none; }
+.footer-brand .mono { margin: 0; }
+.footer-brand img { display: block; width: 112px; height: auto; }
+.footer-brand:hover img { filter: brightness(0) saturate(100%) invert(72%) sepia(35%) saturate(900%) hue-rotate(300deg); }
 
 /* Responsive */
 @media (max-width: 1000px) {
