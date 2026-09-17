@@ -15,135 +15,139 @@
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700;800&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v={{BUILD_SHA}}">
 </head>
 <body>
-{{SPRITE}}
 
 <header class="hero">
   <nav class="nav">
-    <a class="brand" href="/">Awesome Jev</a>
-    <div class="nav-links">
-      <a href="https://docs.typesafe.ai">TypeSafe docs</a>
-      <a href="https://github.com/hellogumbo/awesome-jev/issues/new?template=submit-project.yml">Submit a project</a>
-      <a class="nav-gh" href="https://github.com/hellogumbo/awesome-jev">GitHub</a>
+    <a class="nav-item brand" href="/">Awesome Jev</a>
+    <div class="nav-mid">
+      <a class="nav-item" href="#directory">Directory</a>
+      <a class="nav-item" href="https://docs.typesafe.ai">TypeSafe docs</a>
     </div>
+    <a class="nav-item" href="https://github.com/hellogumbo/awesome-jev">GitHub</a>
   </nav>
-  <div class="hero-body split">
-    <h1>Awesome Jev</h1>
-    <div>
-      <p class="hero-lede">Directory of projects built on <a href="https://typesafe.ai">Jev</a>, TypeSafe AI's System One model. Repos, SDKs, integrations, demos, and benchmarks, with GitHub stars refreshed daily.</p>
-      <dl class="stats">
-        <div><dt>Entries</dt><dd>{{PROJECT_COUNT}}</dd></div>
-        <div><dt>Repos</dt><dd>{{REPO_COUNT}}</dd></div>
-        <div><dt>Live sites</dt><dd>{{SITE_COUNT}}</dd></div>
-        <div><dt>Stars</dt><dd>{{STARS_TOTAL}}</dd></div>
-      </dl>
+  <div class="ticker win">
+    <div class="win-bar"><span>{{UPDATED_LONG}} · awesomejev.com</span></div>
+    <div class="ticker-body">
+      <span>{{PROJECT_COUNT}} projects built on Jev, indexed and refreshed daily</span>
+      <a href="#directory">Browse ↓</a>
     </div>
   </div>
+  <span class="side-string" aria-hidden="true">{{BUILD_STRING}}</span>
 </header>
 
-<main>
-  <section class="intro split">
-    <h2>Jev at a glance</h2>
-    <div>
-      <table class="spec">
-        <tbody>
-          <tr><th>Model</th><td><code>jev-latest</code> (Jev 1.13 at time of writing)</td></tr>
-          <tr><th>Endpoint</th><td><code>POST https://api.typesafe.ai/v1/systemone</code></td></tr>
-          <tr><th>Input</th><td>A state (text or structured data) plus a set of typed questions, evaluated in parallel</td></tr>
-          <tr><th>Output</th><td>Typed answers with per-option probabilities and a confidence score. No text generation.</td></tr>
-          <tr><th>Latency</th><td>70 to 500 ms end to end, per TypeSafe</td></tr>
-          <tr><th>Pricing</th><td>$0.042 per million input tokens, output free</td></tr>
-          <tr><th>SDKs</th><td><a href="https://github.com/typesafe-ai/typesafe-sdk-js">JavaScript</a>, <a href="https://github.com/typesafe-ai/typesafe-sdk-python">Python</a>, <a href="https://vercel.com/ai-gateway/models/jev">Vercel AI Gateway</a>, community clients below</td></tr>
-        </tbody>
-      </table>
-      <div class="props">
-        <div class="prop"><h4>Choice</h4><p>Pick one option from a list. Returns <code>choice</code>, <code>probabilities</code>, <code>confidence</code>.</p></div>
-        <div class="prop"><h4>Score</h4><p>Rate the state on a numeric rubric. Returns <code>score</code>, <code>probabilities</code>, <code>confidence</code>.</p></div>
-        <div class="prop"><h4>Noul</h4><p>Is this statement true? Returns <code>noul</code>, a probability from 0 to 1.</p></div>
-      </div>
-      <pre><code>import { choice, TypeSafeClient } from "@typesafe-ai/sdk";
+<section class="title frame">
+  <span class="marks" aria-hidden="true"></span>
+  <p class="kicker">Community directory <span class="dots"></span> Not affiliated with TypeSafe AI</p>
+  <h1>Everything<br>Built On Jev</h1>
+  <p class="sub">Repos, SDKs, integrations, demos and benchmarks for TypeSafe AI's System One model. Stars refreshed daily from GitHub.</p>
+  <div class="big-links">
+    <a href="#directory">Browse directory</a>
+    <a href="https://github.com/hellogumbo/awesome-jev/issues/new?template=submit-project.yml">Submit a project</a>
+  </div>
+</section>
 
-const client = new TypeSafeClient();
-const response = await client.systemOne({
-  state: { document: "I was charged twice. Please fix this ASAP." },
+<section class="band">
+  <div class="band-inner frame">
+    <span class="marks" aria-hidden="true"></span>
+    <h2 class="giant">{{PROJECT_COUNT}} Entries,<br>{{STARS_TOTAL}} Stars.</h2>
+    <p class="footnote">*{{REPO_COUNT}} GitHub repos, {{SITE_COUNT}} live sites, {{ARTICLE_COUNT}} articles and threads. Refreshed {{UPDATED}}.</p>
+
+    <div class="band-grid">
+      <div class="win spec">
+        <div class="win-bar"><span>JEV · SPEC SHEET</span><span class="win-bar-r">v1.13</span></div>
+        <table class="kv">
+          <tr><th>model</th><td>jev-latest</td></tr>
+          <tr><th>endpoint</th><td>POST https://api.typesafe.ai/v1/systemone</td></tr>
+          <tr><th>input</th><td>state + typed questions, evaluated in parallel</td></tr>
+          <tr><th>output</th><td>typed answers, per-option probabilities, confidence</td></tr>
+          <tr><th>latency</th><td>70–500 ms end to end (per TypeSafe)</td></tr>
+          <tr><th>pricing</th><td>$0.042 / MTok input · output free</td></tr>
+          <tr><th>sdks</th><td><a href="https://github.com/typesafe-ai/typesafe-sdk-js">js</a> · <a href="https://github.com/typesafe-ai/typesafe-sdk-python">python</a> · <a href="https://vercel.com/ai-gateway/models/jev">ai gateway</a> · community below</td></tr>
+        </table>
+      </div>
+      <div class="win prim">
+        <div class="win-bar"><span>PRIMITIVES</span><span class="win-bar-r">3</span></div>
+        <table class="kv">
+          <tr><th>choice</th><td>pick one option from a list → <code>choice</code>, <code>probabilities</code>, <code>confidence</code></td></tr>
+          <tr><th>score</th><td>rate the state on a rubric → <code>score</code>, <code>probabilities</code>, <code>confidence</code></td></tr>
+          <tr><th>noul</th><td>is this statement true? → <code>noul</code> (0–1)</td></tr>
+        </table>
+        <pre class="code"><code><span class="c-k">import</span> { choice, TypeSafeClient } <span class="c-k">from</span> <span class="c-s">"@typesafe-ai/sdk"</span>;
+
+<span class="c-k">const</span> client = <span class="c-k">new</span> TypeSafeClient();
+<span class="c-k">const</span> response = <span class="c-k">await</span> client.systemOne({
+  state: { document: <span class="c-s">"I was charged twice. Please fix this ASAP."</span> },
   questions: {
-    category: choice("What is this ticket about?", {
-      billing: null,
-      technical: null,
-      other: null,
+    category: choice(<span class="c-s">"What is this ticket about?"</span>, {
+      billing: <span class="c-n">null</span>,
+      technical: <span class="c-n">null</span>,
+      other: <span class="c-n">null</span>,
     }),
   },
 });
 
 console.log(response.answers.category.choice);</code></pre>
+      </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section class="featured">
-    <div class="split">
-      <h2>Most starred</h2>
-      <p class="lede">Top repos by GitHub stars, excluding official and integration repos.</p>
-    </div>
+<main class="frame" id="directory">
+  <span class="marks" aria-hidden="true"></span>
+
+  <div class="win featured">
+    <div class="win-bar"><span>MOST STARRED</span><span class="win-bar-r">top {{FEATURED_COUNT}} · excl. official + integrations</span></div>
     <div class="feat-grid">
 {{FEATURED}}
     </div>
-  </section>
+  </div>
 
-  <div class="controls" id="directory">
-    <div class="controls-inner">
-      <label class="search">
-        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m21 21-3.49-3.49m0 0A8.5 8.5 0 1 0 5.49 5.49a8.5 8.5 0 0 0 12.02 12.02Z"/></svg>
-        <input id="q" type="search" placeholder="Search {{PROJECT_COUNT}} entries" autocomplete="off" aria-label="Search projects">
-      </label>
-      <div class="chips" role="group" aria-label="Filter by category">
+  <div class="controls" id="controls">
+    <div class="win">
+      <div class="win-bar"><span>FILTER</span><span class="win-bar-r" id="visible-count">{{PROJECT_COUNT}} shown</span></div>
+      <div class="controls-body">
+        <label class="search"><span class="prompt">&gt;</span><input id="q" type="search" placeholder="search name, description, owner, language" autocomplete="off" spellcheck="false" aria-label="Search projects"></label>
+        <div class="chips" role="group" aria-label="Filter by category">
 {{CHIPS}}
+        </div>
+        <label class="sort"><span>sort</span>
+          <select id="sort" aria-label="Sort projects">
+            <option value="stars">stars</option>
+            <option value="added">newest</option>
+            <option value="name">name</option>
+          </select>
+        </label>
       </div>
-      <label class="sort">
-        <span>Sort</span>
-        <select id="sort" aria-label="Sort projects">
-          <option value="stars">Stars</option>
-          <option value="added">Newest</option>
-          <option value="name">Name</option>
-        </select>
-      </label>
     </div>
   </div>
 
   <div class="directory">
 {{SECTIONS}}
-    <p class="no-results" id="no-results" hidden>Nothing matches. Try a different search.</p>
+    <p class="no-results mono" id="no-results" hidden>0 results.</p>
   </div>
 </main>
 
 <footer class="footer">
   <div class="footer-inner">
-    <div class="footer-cta">
-      <h2>Add a project</h2>
-      <p>Open a pull request against <code>data/projects.json</code> or file an issue with the link. One entry updates the README and this page.</p>
-      <div class="footer-actions">
-        <a class="btn" href="https://github.com/hellogumbo/awesome-jev/issues/new?template=submit-project.yml">Submit a project</a>
-        <a class="btn btn-ghost" href="https://github.com/hellogumbo/awesome-jev/blob/main/CONTRIBUTING.md">Contributing guide</a>
-      </div>
+    <div class="footer-col">
+      <p class="mono">AWESOME JEV · {{PROJECT_COUNT}} ENTRIES</p>
+      <p>Add a project by pull request to <code>data/projects.json</code> or <a href="https://github.com/hellogumbo/awesome-jev/issues/new?template=submit-project.yml">open an issue</a>. One entry updates the README and this page.</p>
     </div>
-    <div class="footer-meta">
-      <div class="footer-links">
-        <a href="https://github.com/hellogumbo/awesome-jev">GitHub</a>
-        <a href="https://typesafe.ai">TypeSafe AI</a>
-        <a href="https://docs.typesafe.ai">Docs</a>
-        <a href="https://discord.gg/typesafe">Discord</a>
-      </div>
-      <p class="footer-note">Not affiliated with TypeSafe AI. CC0. Data refreshed {{UPDATED}}.</p>
-      <a class="footer-brand" href="https://hellogumbo.com" aria-label="Gumbo">
-        <span>Maintained by</span>
-        <img src="assets/gumbo-wordmark-white.svg" alt="Gumbo" width="120" height="24">
-      </a>
+    <div class="footer-col">
+      <p class="mono">LINKS</p>
+      <p><a href="https://github.com/hellogumbo/awesome-jev">github.com/hellogumbo/awesome-jev</a><br><a href="https://typesafe.ai">typesafe.ai</a> · <a href="https://docs.typesafe.ai">docs</a> · <a href="https://discord.gg/typesafe">discord</a></p>
+    </div>
+    <div class="footer-col">
+      <p class="mono">COLOPHON</p>
+      <p>Not affiliated with TypeSafe AI. Content CC0. Maintained by <a href="https://hellogumbo.com">Gumbo</a>. Build {{BUILD_STRING}}.</p>
     </div>
   </div>
 </footer>
 
-<script src="app.js" defer></script>
+<script src="app.js?v={{BUILD_SHA}}" defer></script>
 </body>
 </html>

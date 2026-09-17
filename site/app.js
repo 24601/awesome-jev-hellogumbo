@@ -23,6 +23,8 @@
       visibleTotal += visible;
     }
     noResults.hidden = visibleTotal > 0;
+    const vc = document.getElementById("visible-count");
+    if (vc) vc.textContent = `${visibleTotal} shown`;
   };
 
   const resort = () => {
@@ -45,7 +47,7 @@
       filter = chip.dataset.filter;
       chips.forEach((c) => c.classList.toggle("is-active", c === chip));
       apply();
-      if (filter !== "all") document.getElementById("directory").scrollIntoView({ block: "start" });
+      if (filter !== "all") document.getElementById("controls").scrollIntoView({ block: "start" });
     });
   }
 
