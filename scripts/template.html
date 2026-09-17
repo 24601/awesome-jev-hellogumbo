@@ -4,10 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Awesome Jev</title>
-<meta name="description" content="A community directory of projects, SDKs, demos, and research built on Jev, TypeSafe AI's System One model. {{PROJECT_COUNT}} entries and counting.">
+<meta name="description" content="Directory of {{PROJECT_COUNT}} projects built on Jev, TypeSafe AI's System One model: repos, SDKs, integrations, demos, benchmarks.">
 <link rel="canonical" href="https://awesomejev.com/">
 <meta property="og:title" content="Awesome Jev">
-<meta property="og:description" content="{{PROJECT_COUNT}} projects built on Jev, TypeSafe AI's System One model. Typed decisions, calibrated probabilities, no text generation.">
+<meta property="og:description" content="Directory of {{PROJECT_COUNT}} projects built on Jev, TypeSafe AI's System One model.">
 <meta property="og:url" content="https://awesomejev.com/">
 <meta property="og:type" content="website">
 <meta property="og:image" content="https://awesomejev.com/assets/og.jpg">
@@ -31,9 +31,9 @@
     </div>
   </nav>
   <div class="hero-body split">
-    <h1>Built with Jev.</h1>
+    <h1>Awesome Jev</h1>
     <div>
-      <p class="hero-lede">A community directory of everything shipped on <a href="https://typesafe.ai">Jev</a>, TypeSafe AI's System One model. Typed decisions in, calibrated probabilities out, no text generation. Early access opened 15 September 2026. This is what builders did with it.</p>
+      <p class="hero-lede">Directory of projects built on <a href="https://typesafe.ai">Jev</a>, TypeSafe AI's System One model. Repos, SDKs, integrations, demos, and benchmarks, with GitHub stars refreshed daily.</p>
       <dl class="stats">
         <div><dt>Entries</dt><dd>{{PROJECT_COUNT}}</dd></div>
         <div><dt>Repos</dt><dd>{{REPO_COUNT}}</dd></div>
@@ -46,21 +46,46 @@
 
 <main>
   <section class="intro split">
-    <h2>Decisions, not text.</h2>
+    <h2>Jev at a glance</h2>
     <div>
-      <p class="lede">Send Jev a block of state and a set of typed questions. It answers all of them in parallel, in roughly 70 to 500 ms, and returns values your code can branch on. Three primitives cover most of it.</p>
+      <table class="spec">
+        <tbody>
+          <tr><th>Model</th><td><code>jev-latest</code> (Jev 1.13 at time of writing)</td></tr>
+          <tr><th>Endpoint</th><td><code>POST https://api.typesafe.ai/v1/systemone</code></td></tr>
+          <tr><th>Input</th><td>A state (text or structured data) plus a set of typed questions, evaluated in parallel</td></tr>
+          <tr><th>Output</th><td>Typed answers with per-option probabilities and a confidence score. No text generation.</td></tr>
+          <tr><th>Latency</th><td>70 to 500 ms end to end, per TypeSafe</td></tr>
+          <tr><th>Pricing</th><td>$0.042 per million input tokens, output free</td></tr>
+          <tr><th>SDKs</th><td><a href="https://github.com/typesafe-ai/typesafe-sdk-js">JavaScript</a>, <a href="https://github.com/typesafe-ai/typesafe-sdk-python">Python</a>, <a href="https://vercel.com/ai-gateway/models/jev">Vercel AI Gateway</a>, community clients below</td></tr>
+        </tbody>
+      </table>
       <div class="props">
-        <div class="prop"><h4>Choice</h4><p>Pick one option from a list. Returns the choice, a probability per option, and confidence.</p></div>
-        <div class="prop"><h4>Score</h4><p>Rate the state against a rubric. Returns the score, a distribution, and confidence.</p></div>
-        <div class="prop"><h4>Noul</h4><p>Is this statement true? Returns a single probability between 0 and 1.</p></div>
+        <div class="prop"><h4>Choice</h4><p>Pick one option from a list. Returns <code>choice</code>, <code>probabilities</code>, <code>confidence</code>.</p></div>
+        <div class="prop"><h4>Score</h4><p>Rate the state on a numeric rubric. Returns <code>score</code>, <code>probabilities</code>, <code>confidence</code>.</p></div>
+        <div class="prop"><h4>Noul</h4><p>Is this statement true? Returns <code>noul</code>, a probability from 0 to 1.</p></div>
       </div>
+      <pre><code>import { choice, TypeSafeClient } from "@typesafe-ai/sdk";
+
+const client = new TypeSafeClient();
+const response = await client.systemOne({
+  state: { document: "I was charged twice. Please fix this ASAP." },
+  questions: {
+    category: choice("What is this ticket about?", {
+      billing: null,
+      technical: null,
+      other: null,
+    }),
+  },
+});
+
+console.log(response.answers.category.choice);</code></pre>
     </div>
   </section>
 
   <section class="featured">
     <div class="split">
       <h2>Most starred</h2>
-      <p class="lede">The community favorites so far. Star counts refresh daily.</p>
+      <p class="lede">Top repos by GitHub stars, excluding official and integration repos.</p>
     </div>
     <div class="feat-grid">
 {{FEATURED}}
@@ -96,8 +121,8 @@
 <footer class="footer">
   <div class="footer-inner">
     <div class="footer-cta">
-      <h2>Built something with Jev?</h2>
-      <p>Add it. One pull request, one JSON entry, and it shows up here and in the README.</p>
+      <h2>Add a project</h2>
+      <p>Open a pull request against <code>data/projects.json</code> or file an issue with the link. One entry updates the README and this page.</p>
       <div class="footer-actions">
         <a class="btn" href="https://github.com/hellogumbo/awesome-jev/issues/new?template=submit-project.yml">Submit a project</a>
         <a class="btn btn-ghost" href="https://github.com/hellogumbo/awesome-jev/blob/main/CONTRIBUTING.md">Contributing guide</a>
@@ -110,7 +135,7 @@
         <a href="https://docs.typesafe.ai">Docs</a>
         <a href="https://discord.gg/typesafe">Discord</a>
       </div>
-      <p class="footer-note">Not affiliated with TypeSafe AI. Content is CC0. Refreshed {{UPDATED}}.</p>
+      <p class="footer-note">Not affiliated with TypeSafe AI. CC0. Data refreshed {{UPDATED}}.</p>
       <a class="footer-brand" href="https://hellogumbo.com" aria-label="Gumbo">
         <span>Maintained by</span>
         <img src="assets/gumbo-wordmark-white.svg" alt="Gumbo" width="120" height="24">

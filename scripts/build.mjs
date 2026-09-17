@@ -49,13 +49,13 @@ const contents = categories.map((c) => `- [${c.title}](#${slug(c.title)})`).join
 
 const readme = `# Awesome Jev [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> Projects, SDKs, demos, and research built on [Jev](https://typesafe.ai), TypeSafe AI's System One model.
+> Directory of projects built on [Jev](https://typesafe.ai), TypeSafe AI's System One model.
 
-Browse it at **[awesomejev.com](https://awesomejev.com)**.
+Site: **[awesomejev.com](https://awesomejev.com)** (searchable, with GitHub stars refreshed daily).
 
-Jev does not generate text. You send it a block of state and a set of typed questions (Choice, Score, Noul), and it answers all of them in parallel with calibrated probabilities in roughly 70 to 500 ms. Early access opened on 15 September 2026, and builders shipped hundreds of projects in the first days. This list tracks them.
+Jev takes a state plus a set of typed questions (Choice, Score, Noul) and returns typed answers with calibrated probabilities in one request, no text generation. Model id \`jev-latest\`, endpoint \`POST https://api.typesafe.ai/v1/systemone\`, early access since 2026-09-15. Docs: [docs.typesafe.ai](https://docs.typesafe.ai).
 
-This list is community-maintained and not affiliated with TypeSafe AI. Add your project with a pull request or [open an issue](https://github.com/hellogumbo/awesome-jev/issues/new?template=submit-project.yml). See [CONTRIBUTING.md](CONTRIBUTING.md).
+Not affiliated with TypeSafe AI. To add a project, open a pull request or [file an issue](https://github.com/hellogumbo/awesome-jev/issues/new?template=submit-project.yml). See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ${num(projects.length)} entries · last refreshed ${data.updated}
 

@@ -62,7 +62,7 @@ img, svg { display: block; }
   column-gap: 7%;
   align-items: start;
 }
-.lede { font-size: 22px; letter-spacing: -0.02em; line-height: 1.5; color: var(--black-90); }
+.lede { font-size: 20px; letter-spacing: -0.01em; line-height: 1.5; color: var(--black-90); }
 .count {
   display: inline-block;
   margin-left: var(--space-2);
@@ -124,6 +124,13 @@ img, svg { display: block; }
 /* Main blocks */
 main { max-width: var(--max); margin: 0 auto; padding: 0 var(--gutter); }
 .intro { padding: var(--space-16) 0; border-bottom: 1px solid var(--black-30); }
+table.spec { width: 100%; border-collapse: collapse; font-size: 15px; line-height: 1.5; }
+.spec th { text-align: left; font-weight: 500; color: var(--black-70); padding: 10px 16px 10px 0; width: 110px; vertical-align: top; white-space: nowrap; }
+.spec td { padding: 10px 0; border-bottom: 1px solid var(--black-30); color: var(--black-90); }
+.spec tr:last-child td { border-bottom: 0; }
+code { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 0.92em; background: var(--black-20); padding: 1px 5px; border-radius: var(--radius-sm); }
+pre { margin: var(--space-6) 0 0; padding: var(--space-4) var(--space-6); background: var(--black-100); color: var(--white); border-radius: var(--radius-md); overflow-x: auto; font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 13px; line-height: 1.55; }
+pre code { background: transparent; padding: 0; font-size: inherit; color: inherit; }
 .props {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));

@@ -4,17 +4,17 @@
     {
       "id": "official",
       "title": "Official",
-      "blurb": "TypeSafe AI's own docs, SDKs, and resources."
+      "blurb": "Docs, SDKs, and resources from TypeSafe AI."
     },
     {
       "id": "sdks",
       "title": "SDKs & clients",
-      "blurb": "Community clients for languages TypeSafe does not ship yet."
+      "blurb": "Community clients for languages without an official SDK."
     },
     {
       "id": "integrations",
       "title": "Integrations",
-      "blurb": "Jev wired into frameworks, gateways, and platforms."
+      "blurb": "Jev inside frameworks, gateways, and platforms."
     },
     {
       "id": "agents",
@@ -24,37 +24,37 @@
     {
       "id": "browser",
       "title": "Browser & computer use",
-      "blurb": "Jev picking the next click, on the web, on desktops, and on phones."
+      "blurb": "Browser, desktop, and mobile automation with Jev choosing the action."
     },
     {
       "id": "apps",
       "title": "Applications",
-      "blurb": "Products, tools, and pipelines with Jev in the loop."
+      "blurb": "Products, tools, and pipelines that call Jev."
     },
     {
       "id": "games",
       "title": "Games & simulations",
-      "blurb": "Jev on the controls, code running the world."
+      "blurb": "Games and simulations with Jev making the moves."
     },
     {
       "id": "demos",
       "title": "Demos & playgrounds",
-      "blurb": "Try it in the browser."
+      "blurb": "Live demos and playgrounds."
     },
     {
       "id": "research",
       "title": "Benchmarks & research",
-      "blurb": "Evals, calibration studies, and open replicas."
+      "blurb": "Benchmarks, evals, calibration studies, and open replicas."
     },
     {
       "id": "lists",
       "title": "Other lists",
-      "blurb": "Fellow curators."
+      "blurb": "Other curated lists."
     },
     {
       "id": "articles",
       "title": "Articles & threads",
-      "blurb": "Reading, coverage, and field notes from builders."
+      "blurb": "Coverage, write-ups, and X threads."
     }
   ],
   "projects": [

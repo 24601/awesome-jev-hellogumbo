@@ -1,12 +1,12 @@
 # Awesome Jev [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> Projects, SDKs, demos, and research built on [Jev](https://typesafe.ai), TypeSafe AI's System One model.
+> Directory of projects built on [Jev](https://typesafe.ai), TypeSafe AI's System One model.
 
-Browse it at **[awesomejev.com](https://awesomejev.com)**.
+Site: **[awesomejev.com](https://awesomejev.com)** (searchable, with GitHub stars refreshed daily).
 
-Jev does not generate text. You send it a block of state and a set of typed questions (Choice, Score, Noul), and it answers all of them in parallel with calibrated probabilities in roughly 70 to 500 ms. Early access opened on 15 September 2026, and builders shipped hundreds of projects in the first days. This list tracks them.
+Jev takes a state plus a set of typed questions (Choice, Score, Noul) and returns typed answers with calibrated probabilities in one request, no text generation. Model id `jev-latest`, endpoint `POST https://api.typesafe.ai/v1/systemone`, early access since 2026-09-15. Docs: [docs.typesafe.ai](https://docs.typesafe.ai).
 
-This list is community-maintained and not affiliated with TypeSafe AI. Add your project with a pull request or [open an issue](https://github.com/hellogumbo/awesome-jev/issues/new?template=submit-project.yml). See [CONTRIBUTING.md](CONTRIBUTING.md).
+Not affiliated with TypeSafe AI. To add a project, open a pull request or [file an issue](https://github.com/hellogumbo/awesome-jev/issues/new?template=submit-project.yml). See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 409 entries · last refreshed 2026-09-17
 
@@ -27,7 +27,7 @@ This list is community-maintained and not affiliated with TypeSafe AI. Add your 
 
 ## Official
 
-TypeSafe AI's own docs, SDKs, and resources.
+Docs, SDKs, and resources from TypeSafe AI.
 
 - [TypeSafe AI](https://typesafe.ai) - Company homepage, waitlist, and product overview.
 - [Documentation](https://docs.typesafe.ai) - Introduction, primitives, patterns, cookbooks, HTTP API, and SDK references.
@@ -51,7 +51,7 @@ TypeSafe AI's own docs, SDKs, and resources.
 
 ## SDKs & clients
 
-Community clients for languages TypeSafe does not ship yet.
+Community clients for languages without an official SDK.
 
 - [advocaat](https://github.com/pithings/advocaat) - A small, type-safe client for asking AI questions about your data, powered by TypeSafe Jev.
 - [typesafe-ai](https://github.com/Twister915/typesafe-ai) - Typed TypeSafe AI clients for Rust, with async and blocking backends and observable retries.
@@ -91,7 +91,7 @@ Community clients for languages TypeSafe does not ship yet.
 
 ## Integrations
 
-Jev wired into frameworks, gateways, and platforms.
+Jev inside frameworks, gateways, and platforms.
 
 - [eve](https://github.com/vercel/eve) ([site](https://eve.dev)) - Vercel's open agent framework, which ships Jev as the default evaluation model in its experimental evaluate path.
 - [ai-cli](https://github.com/vercel-labs/ai-cli) ([site](https://ai-cli.dev)) - Vercel Labs terminal CLI that can run Jev as the evaluation model for its evaluate command.
@@ -184,7 +184,7 @@ Gates, routers, reviewers, MCP servers, and skills for coding agents.
 
 ## Browser & computer use
 
-Jev picking the next click, on the web, on desktops, and on phones.
+Browser, desktop, and mobile automation with Jev choosing the action.
 
 - [Jev Ultrafast](https://github.com/browser-use/jev-ultrafast) ([post](https://x.com/gregpr07/status/2100411066966749359)) - Browser Use's ultrafast agent: Jev picks the operation and DOM element in one request; a small LLM only writes text when typing is needed.
 - [typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use) ([post](https://x.com/awlevin/status/2100262612428894676)) - Computer use for about $0.0002 a step: OCR the screen, classify the next action with TypeSafe, click. macOS.
@@ -213,7 +213,7 @@ Jev picking the next click, on the web, on desktops, and on phones.
 
 ## Applications
 
-Products, tools, and pipelines with Jev in the loop.
+Products, tools, and pipelines that call Jev.
 
 - [jev-trader](https://github.com/jarrodwatts/jev-trader) ([site](https://jev-trader.vercel.app/), [post](https://x.com/jarrodwatts/status/2100356151468585346)) - One AI trade decision every Monad block. Jev on Kuru MON-USDC.
 - [notra](https://github.com/usenotra/notra) ([site](https://www.usenotra.com/)) - Marketing analytics platform whose feature flag routes brand-visibility classifiers off an LLM and onto Jev boolean decisions.
@@ -252,7 +252,7 @@ Products, tools, and pipelines with Jev in the loop.
 
 ## Games & simulations
 
-Jev on the controls, code running the world.
+Games and simulations with Jev making the moves.
 
 - [typesafe-mario](https://github.com/fhshaik/typesafe-mario) - A TypeSafe/Jev agent that plays Super Mario Bros. from structured emulator state.
 - [jev-drone](https://github.com/RomanSlack/jev-drone) - Camera-only autonomous drone in MuJoCo with a small judgment model (TypeSafe Jev) in the loop at 2.5Hz.
@@ -304,7 +304,7 @@ Jev on the controls, code running the world.
 
 ## Demos & playgrounds
 
-Try it in the browser.
+Live demos and playgrounds.
 
 - [jev-me](https://github.com/jon-devlapaz/jev-me) - A grill-me style interrogation of your idea, with Jev doing the grilling.
 - [typesafe-ai-playground (BunsDev)](https://github.com/BunsDev/typesafe-ai-playground) ([site](https://jev.works)) - Community TypeSafe AI playground: 110 use cases, games, dilemmas and model challenges, with editable prompts, A/B comparisons and a mobile-friendly UI.
@@ -354,7 +354,7 @@ Try it in the browser.
 
 ## Benchmarks & research
 
-Evals, calibration studies, and open replicas.
+Benchmarks, evals, calibration studies, and open replicas.
 
 - [jevlike](https://github.com/vinnylarouge/jevlike) ([post](https://x.com/hhkkmon/status/2100443314957038010)) - Train a small model that chooses among a changing list of text options, one probability per option in a single pass. Includes Doom, chess, and Wikispeedia demos.
 - [openjev (TheoLeeCJ)](https://github.com/TheoLeeCJ/openjev) ([site](https://openjev.com), [post](https://x.com/hhkkmon/status/2100443314957038010)) - Can we run something like Jev on a 3090 at home?
@@ -430,7 +430,7 @@ Evals, calibration studies, and open replicas.
 
 ## Other lists
 
-Fellow curators.
+Other curated lists.
 
 - [awesome-typesafe](https://github.com/AbdelStark/awesome-typesafe) ([site](https://abdelstark.github.io/awesome-typesafe/)) - Curated list of official resources and community projects for TypeSafe, System One models, and Jev, with a GitHub Pages site.
 - [awesome-jev (AnotiaWang)](https://github.com/AnotiaWang/awesome-jev) ([post](https://x.com/0xLogicrw/status/2100478725393686556)) - A curated list of awesome Jev / TypeSafe System One applications, libraries, and resources.
@@ -438,7 +438,7 @@ Fellow curators.
 
 ## Articles & threads
 
-Reading, coverage, and field notes from builders.
+Coverage, write-ups, and X threads.
 
 - [agentjournal ledger tests](https://x.com/agent_journal/status/2100611808545632758) - 25,174 Jev calls for $1.43 across template-trap, multi-dimension, and real-ledger account-coding tasks.
 - [AI that does not talk](https://ziplyne.agency/blog/ai-that-doesnt-talk-typesafe-jev-guide) - Practical guide: playground, Python and JS SDKs, raw HTTP, and the agent skill.
