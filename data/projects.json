@@ -1172,13 +1172,14 @@
     {
       "name": "gpt-vs-jev",
       "repo": "TanayPadar/gpt-vs-jev",
-      "site": null,
+      "site": "https://gptvsjev.vercel.app",
       "description": "Compare GPT generated language with JEV structured Noul decisions on the same input.",
       "category": "demos",
       "language": "TypeScript",
       "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "post": "https://x.com/nerdytanay/status/2100465397267144815"
     },
     {
       "name": "psearch",
@@ -1377,7 +1378,8 @@
       "language": "Go",
       "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "post": "https://x.com/_GauravGosain/status/2100111398277959715"
     },
     {
       "name": "jev-go (Gaurav-Gosain)",
@@ -1891,13 +1893,14 @@
     {
       "name": "beatjev",
       "repo": "lambertsj/beatjev",
-      "site": null,
-      "description": "try to beat jev",
+      "site": "https://beatjev2it.jlamberts86.workers.dev",
+      "description": "Browser game: try to beat Jev at spotting a spam message.",
       "category": "games",
       "language": "JavaScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "post": "https://x.com/j_lamberts/status/2100592556081832131"
     },
     {
       "name": "pi-jev (TheoOliveira)",
@@ -4428,6 +4431,181 @@
       "stars": 0,
       "added": "2026-09-17",
       "url": "https://x.com/0xLogicrw/status/2100478725393686556"
+    },
+    {
+      "name": "jevlike",
+      "repo": "vinnylarouge/jevlike",
+      "site": null,
+      "description": "Train a small model that chooses among a changing list of text options, one probability per option in a single pass. Includes Doom, chess, and Wikispeedia demos.",
+      "category": "research",
+      "language": "Python",
+      "stars": 548,
+      "added": "2026-09-17",
+      "post": "https://x.com/hhkkmon/status/2100443314957038010"
+    },
+    {
+      "name": "jevex",
+      "repo": "jvsteiner/jevex",
+      "site": null,
+      "description": "Minimal agent loop where Jev directs control flow and a LangChain chat model writes argument values and the final response.",
+      "category": "agents",
+      "language": "Python",
+      "stars": 3,
+      "added": "2026-09-17"
+    },
+    {
+      "name": "jevbetter",
+      "repo": "olanotolu/jevbetter",
+      "site": null,
+      "description": "A stronger one-pass scorer over a variable list of text options: hashed n-gram encoder, rival-aware attention, gated head, temperature scaling, benchmarked against jevlike.",
+      "category": "research",
+      "language": "Python",
+      "stars": 3,
+      "added": "2026-09-17"
+    },
+    {
+      "name": "chess-jev",
+      "repo": null,
+      "site": "https://chess-jev.loomens.com",
+      "description": "3D chess where Jev plays both sides, or you jump in.",
+      "category": "games",
+      "language": null,
+      "stars": 0,
+      "added": "2026-09-17",
+      "post": "https://x.com/BuildWithKhalil/status/2100364868733812987"
+    },
+    {
+      "name": "TrainLCD Jev rerank",
+      "repo": null,
+      "site": null,
+      "description": "Pull request adding Jev to station-suggestion reranking in the TrainLCD transit app.",
+      "category": "integrations",
+      "language": "TypeScript",
+      "stars": 0,
+      "added": "2026-09-17",
+      "url": "https://github.com/TrainLCD/Functions/pull/33",
+      "post": "https://x.com/tinykitten8/status/2100618835443453969"
+    },
+    {
+      "name": "Jev: System One models explained (DataCamp)",
+      "repo": null,
+      "site": null,
+      "description": "Third-party write-up of the System One primitives, pricing, and vendor workflow evals.",
+      "category": "articles",
+      "language": null,
+      "stars": 0,
+      "added": "2026-09-17",
+      "url": "https://www.datacamp.com/blog/system-one-models-jev"
+    },
+    {
+      "name": "DuckDB Jev classifier",
+      "repo": null,
+      "site": null,
+      "description": "DuckDB extension that classifies rows in CSV, Parquet, or DuckDB tables with Jev, about 10 seconds per 1,000 rows.",
+      "category": "articles",
+      "language": null,
+      "stars": 0,
+      "added": "2026-09-17",
+      "url": "https://x.com/hamiltonulmer/status/2100370557405667768"
+    },
+    {
+      "name": "Hook panel A/B tester",
+      "repo": null,
+      "site": null,
+      "description": "Near-real-time scoring of TikTok and Instagram hooks against about 100 personas.",
+      "category": "articles",
+      "language": null,
+      "stars": 0,
+      "added": "2026-09-17",
+      "url": "https://x.com/Vybhav/status/2100609472750047263"
+    },
+    {
+      "name": "Jev gomoku harness",
+      "repo": null,
+      "site": null,
+      "description": "Local tactics shrink 225 moves to about 40 candidates, then Jev picks among tiered options.",
+      "category": "articles",
+      "language": null,
+      "stars": 0,
+      "added": "2026-09-17",
+      "url": "https://x.com/VacekvVita/status/2100609341145465325"
+    },
+    {
+      "name": "ViZDoom Jev agent",
+      "repo": null,
+      "site": null,
+      "description": "Two decision channels on ViZDoom, navigation at 5 Hz and combat at 12 Hz, with an 18-kill test run.",
+      "category": "articles",
+      "language": null,
+      "stars": 0,
+      "added": "2026-09-17",
+      "url": "https://x.com/kmad/status/2100339921714323624"
+    },
+    {
+      "name": "StarCraft Brood War WASM MCP demo",
+      "repo": null,
+      "site": null,
+      "description": "Brood War in WASM exposed as an MCP server, with Jev playing and still losing to a Zerg rush.",
+      "category": "articles",
+      "language": null,
+      "stars": 0,
+      "added": "2026-09-17",
+      "url": "https://x.com/literallydenis/status/2100622868878868603"
+    },
+    {
+      "name": "Spanish AEPD corpus test",
+      "repo": null,
+      "site": null,
+      "description": "Jev versus a hand-built regex on 544 public data-protection resolutions: 98.2% agreement for about five cents.",
+      "category": "articles",
+      "language": null,
+      "stars": 0,
+      "added": "2026-09-17",
+      "url": "https://x.com/juanmacias/status/2100463494629925048"
+    },
+    {
+      "name": "Tabletop MMORPG action mapper",
+      "repo": null,
+      "site": null,
+      "description": "Eval of Jev turning free-text player intent into typed server actions: 96% agreement, 317 ms median.",
+      "category": "articles",
+      "language": null,
+      "stars": 0,
+      "added": "2026-09-17",
+      "url": "https://x.com/Jon_iy/status/2100397782322364792"
+    },
+    {
+      "name": "Jev in 34 seconds",
+      "repo": null,
+      "site": null,
+      "description": "Short video explainer of how Jev's typed-decision loop works.",
+      "category": "articles",
+      "language": null,
+      "stars": 0,
+      "added": "2026-09-17",
+      "url": "https://x.com/dwhitedesign/status/2100368024649769384"
+    },
+    {
+      "name": "agentjournal ledger tests",
+      "repo": null,
+      "site": null,
+      "description": "25,174 Jev calls for $1.43 across template-trap, multi-dimension, and real-ledger account-coding tasks.",
+      "category": "articles",
+      "language": null,
+      "stars": 0,
+      "added": "2026-09-17",
+      "url": "https://x.com/agent_journal/status/2100611808545632758"
+    },
+    {
+      "name": "Wiki-link clicker demo",
+      "repo": null,
+      "site": null,
+      "description": "Page-level demo where Jev picks which candidate link to click toward a goal.",
+      "category": "articles",
+      "language": null,
+      "stars": 0,
+      "added": "2026-09-17",
+      "url": "https://x.com/mark1nhu/status/2100620075090792490"
     }
   ]
 }
