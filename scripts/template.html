@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Awesome Jev</title>
+<meta name="description" content="A community directory of projects, SDKs, demos, and research built on Jev, TypeSafe AI's System One model. {{PROJECT_COUNT}} entries and counting.">
+<link rel="canonical" href="https://awesomejev.com/">
+<meta property="og:title" content="Awesome Jev">
+<meta property="og:description" content="{{PROJECT_COUNT}} projects built on Jev, TypeSafe AI's System One model. Typed decisions, calibrated probabilities, no text generation.">
+<meta property="og:url" content="https://awesomejev.com/">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://awesomejev.com/assets/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+{{SPRITE}}
+
+<header class="hero">
+  <nav class="nav">
+    <a class="brand" href="/">Awesome Jev</a>
+    <div class="nav-links">
+      <a href="https://docs.typesafe.ai">TypeSafe docs</a>
+      <a href="https://github.com/hellogumbo/awesome-jev/issues/new?template=submit-project.yml">Submit a project</a>
+      <a class="nav-gh" href="https://github.com/hellogumbo/awesome-jev">GitHub</a>
+    </div>
+  </nav>
+  <div class="hero-body split">
+    <h1>Built with Jev.</h1>
+    <div>
+      <p class="hero-lede">A community directory of everything shipped on <a href="https://typesafe.ai">Jev</a>, TypeSafe AI's System One model. Typed decisions in, calibrated probabilities out, no text generation. Early access opened 15 September 2026. This is what builders did with it.</p>
+      <dl class="stats">
+        <div><dt>Entries</dt><dd>{{PROJECT_COUNT}}</dd></div>
+        <div><dt>Repos</dt><dd>{{REPO_COUNT}}</dd></div>
+        <div><dt>Live sites</dt><dd>{{SITE_COUNT}}</dd></div>
+        <div><dt>Stars</dt><dd>{{STARS_TOTAL}}</dd></div>
+      </dl>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="intro split">
+    <h2>Decisions, not text.</h2>
+    <div>
+      <p class="lede">Send Jev a block of state and a set of typed questions. It answers all of them in parallel, in roughly 70 to 500 ms, and returns values your code can branch on. Three primitives cover most of it.</p>
+      <div class="props">
+        <div class="prop"><h4>Choice</h4><p>Pick one option from a list. Returns the choice, a probability per option, and confidence.</p></div>
+        <div class="prop"><h4>Score</h4><p>Rate the state against a rubric. Returns the score, a distribution, and confidence.</p></div>
+        <div class="prop"><h4>Noul</h4><p>Is this statement true? Returns a single probability between 0 and 1.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="featured">
+    <div class="split">
+      <h2>Most starred</h2>
+      <p class="lede">The community favorites so far. Star counts refresh daily.</p>
+    </div>
+    <div class="feat-grid">
+{{FEATURED}}
+    </div>
+  </section>
+
+  <div class="controls" id="directory">
+    <div class="controls-inner">
+      <label class="search">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m21 21-3.49-3.49m0 0A8.5 8.5 0 1 0 5.49 5.49a8.5 8.5 0 0 0 12.02 12.02Z"/></svg>
+        <input id="q" type="search" placeholder="Search {{PROJECT_COUNT}} entries" autocomplete="off" aria-label="Search projects">
+      </label>
+      <div class="chips" role="group" aria-label="Filter by category">
+{{CHIPS}}
+      </div>
+      <label class="sort">
+        <span>Sort</span>
+        <select id="sort" aria-label="Sort projects">
+          <option value="stars">Stars</option>
+          <option value="added">Newest</option>
+          <option value="name">Name</option>
+        </select>
+      </label>
+    </div>
+  </div>
+
+  <div class="directory">
+{{SECTIONS}}
+    <p class="no-results" id="no-results" hidden>Nothing matches. Try a different search.</p>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-cta">
+      <h2>Built something with Jev?</h2>
+      <p>Add it. One pull request, one JSON entry, and it shows up here and in the README.</p>
+      <div class="footer-actions">
+        <a class="btn" href="https://github.com/hellogumbo/awesome-jev/issues/new?template=submit-project.yml">Submit a project</a>
+        <a class="btn btn-ghost" href="https://github.com/hellogumbo/awesome-jev/blob/main/CONTRIBUTING.md">Contributing guide</a>
+      </div>
+    </div>
+    <div class="footer-meta">
+      <div class="footer-links">
+        <a href="https://github.com/hellogumbo/awesome-jev">GitHub</a>
+        <a href="https://typesafe.ai">TypeSafe AI</a>
+        <a href="https://docs.typesafe.ai">Docs</a>
+        <a href="https://discord.gg/typesafe">Discord</a>
+      </div>
+      <p class="footer-note">Not affiliated with TypeSafe AI. Content is CC0. Refreshed {{UPDATED}}.</p>
+      <a class="footer-brand" href="https://hellogumbo.com" aria-label="Gumbo">
+        <span>Maintained by</span>
+        <img src="assets/gumbo-wordmark-white.svg" alt="Gumbo" width="120" height="24">
+      </a>
+    </div>
+  </div>
+</footer>
+
+<script src="app.js" defer></script>
+</body>
+</html>

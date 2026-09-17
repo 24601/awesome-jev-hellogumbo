@@ -1,0 +1,42 @@
+name: Submit a project
+description: Add something built with Jev to the directory.
+title: "Add: "
+labels: [submission]
+body:
+  - type: input
+    id: link
+    attributes:
+      label: Link
+      description: GitHub repo or live site.
+      placeholder: https://github.com/you/your-jev-project
+    validations:
+      required: true
+  - type: input
+    id: site
+    attributes:
+      label: Live site (optional)
+      placeholder: https://your-demo.vercel.app
+  - type: textarea
+    id: description
+    attributes:
+      label: What does it do, and where does Jev fit?
+      description: One or two sentences in plain language.
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - SDKs & clients
+        - Integrations
+        - Agent tooling
+        - Browser & computer use
+        - Applications
+        - Games & simulations
+        - Demos & playgrounds
+        - Benchmarks & research
+        - Articles & threads
+        - Not sure
+    validations:
+      required: true

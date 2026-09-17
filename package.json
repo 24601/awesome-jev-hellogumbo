@@ -1,0 +1,17 @@
+{
+  "name": "awesome-jev",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A community directory of projects built on Jev, TypeSafe AI's System One model.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "refresh": "node scripts/refresh.mjs",
+    "discover": "node scripts/discover.mjs",
+    "deploy": "npm run build && wrangler pages deploy site --project-name=awesomejev --branch=main"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "CC0-1.0"
+}
