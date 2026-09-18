@@ -39,13 +39,14 @@ jobs:
           fi
           git commit -m "chore: nightly refresh and discovery"
           echo "changed=true" >> "$GITHUB_OUTPUT"
+      - run: npm run validate
       - name: Build
         run: npm run build
-      - name: Commit generated files
+      - name: Commit README
         if: steps.commit.outputs.changed == 'true'
         run: |
-          git add README.md site/index.html
-          git diff --cached --quiet || git commit -m "chore: rebuild README and site"
+          git add README.md
+          git diff --cached --quiet || git commit -m "chore: rebuild README"
           git push
       - name: Deploy
         if: steps.commit.outputs.changed == 'true'

@@ -25,13 +25,13 @@ Thanks for adding to the list. The whole directory lives in one file, `data/proj
    - `category` is one of the `id` values in the `categories` array at the top of the file.
    - `stars` and `language` are refreshed automatically for GitHub repos. Leave `stars` at `0`.
 
-2. Run the build so the README and site update:
+2. Check it:
 
    ```bash
-   npm run build
+   npm run validate
    ```
 
-3. Open a pull request. One project per PR keeps review quick.
+3. Open a pull request that changes only `data/projects.json`. Do not commit `README.md` or `site/index.html`; CI regenerates both after merge. One project per PR keeps review quick.
 
 If you would rather not edit JSON, [open an issue](https://github.com/hellogumbo/awesome-jev/issues/new?template=submit-project.yml) with the link and a sentence about what it does.
 
@@ -50,7 +50,8 @@ Empty repos, placeholder READMEs, and brand-name squats are removed when we find
 npm run refresh              # update stars, language, homepages, renames, and mark removed repos
 npm run discover             # print repos mentioning Jev/TypeSafe that are not listed yet
 npm run discover -- --add    # append the ones that pass the inclusion bar (2+ stars, or 1 star with a site)
-npm run build                # regenerate README.md and site/index.html
+npm run validate             # check data/projects.json (fields, categories, duplicates)
+npm run build                # regenerate README.md and site/index.html locally
 ```
 
 Set `GITHUB_TOKEN` to avoid rate limits on `refresh` and `discover`.

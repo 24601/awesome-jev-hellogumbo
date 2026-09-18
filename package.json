@@ -5,6 +5,7 @@
   "description": "A community directory of projects built on Jev, TypeSafe AI's System One model.",
   "type": "module",
   "scripts": {
+    "validate": "node scripts/validate.mjs",
     "build": "node scripts/build.mjs",
     "refresh": "node scripts/refresh.mjs",
     "discover": "node scripts/discover.mjs",
