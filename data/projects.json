@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17",
+  "updated": "2026-09-18",
   "categories": [
     {
       "id": "official",
@@ -65,21 +65,23 @@
       "description": "Vercel's open agent framework, which ships Jev as the default evaluation model in its experimental evaluate path.",
       "category": "integrations",
       "language": "TypeScript",
-      "stars": 5355,
+      "stars": 5249,
       "added": "2026-09-17",
-      "created": "2026-06-16"
+      "created": "2026-06-16",
+      "pushed": "2026-09-18"
     },
     {
       "name": "Jev Ultrafast",
       "repo": "browser-use/jev-ultrafast",
-      "site": null,
+      "site": "https://browser-use.com",
       "description": "Browser Use's ultrafast agent: Jev picks the operation and DOM element in one request; a small LLM only writes text when typing is needed.",
       "category": "browser",
       "language": "Python",
-      "stars": 1194,
+      "stars": 3904,
       "added": "2026-09-17",
       "created": "2026-09-16",
-      "post": "https://x.com/gregpr07/status/2100411066966749359"
+      "post": "https://x.com/gregpr07/status/2100411066966749359",
+      "pushed": "2026-09-18"
     },
     {
       "name": "ai-cli",
@@ -88,9 +90,10 @@
       "description": "Vercel Labs terminal CLI that can run Jev as the evaluation model for its evaluate command.",
       "category": "integrations",
       "language": "TypeScript",
-      "stars": 699,
+      "stars": 782,
       "added": "2026-09-17",
-      "created": "2025-07-28"
+      "created": "2025-07-28",
+      "pushed": "2026-09-17"
     },
     {
       "name": "openjev (TheoLeeCJ)",
@@ -99,10 +102,11 @@
       "description": "Can we run something like Jev on a 3090 at home?",
       "category": "research",
       "language": "Python",
-      "stars": 463,
+      "stars": 1307,
       "added": "2026-09-17",
       "created": "2026-09-16",
-      "post": "https://x.com/hhkkmon/status/2100443314957038010"
+      "post": "https://x.com/hhkkmon/status/2100443314957038010",
+      "pushed": "2026-09-18"
     },
     {
       "name": "jev-trader",
@@ -111,10 +115,11 @@
       "description": "One AI trade decision every Monad block. Jev on Kuru MON-USDC.",
       "category": "apps",
       "language": "TypeScript",
-      "stars": 363,
+      "stars": 702,
       "added": "2026-09-17",
       "created": "2026-09-16",
-      "post": "https://x.com/jarrodwatts/status/2100356151468585346"
+      "post": "https://x.com/jarrodwatts/status/2100356151468585346",
+      "pushed": "2026-09-17"
     },
     {
       "name": "notra",
@@ -125,7 +130,8 @@
       "language": "TypeScript",
       "stars": 170,
       "added": "2026-09-17",
-      "created": "2025-12-13"
+      "created": "2025-12-13",
+      "pushed": "2026-09-18"
     },
     {
       "name": "typesafe-mario",
@@ -134,9 +140,10 @@
       "description": "A TypeSafe/Jev agent that plays Super Mario Bros. from structured emulator state.",
       "category": "games",
       "language": "Python",
-      "stars": 165,
+      "stars": 250,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-16"
     },
     {
       "name": "typesafe-computer-use",
@@ -145,10 +152,11 @@
       "description": "Computer use for about $0.0002 a step: OCR the screen, classify the next action with TypeSafe, click. macOS.",
       "category": "browser",
       "language": "Python",
-      "stars": 145,
+      "stars": 183,
       "added": "2026-09-17",
       "created": "2026-09-16",
-      "post": "https://x.com/awlevin/status/2100262612428894676"
+      "post": "https://x.com/awlevin/status/2100262612428894676",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-review (devagrawal09)",
@@ -157,10 +165,11 @@
       "description": "A staged code-review workflow and local dashboard built with TypeSafe Jev.",
       "category": "agents",
       "language": "TypeScript",
-      "stars": 77,
+      "stars": 216,
       "added": "2026-09-17",
       "created": "2026-09-16",
-      "post": "https://x.com/0xLogicrw/status/2100478725393686556"
+      "post": "https://x.com/0xLogicrw/status/2100478725393686556",
+      "pushed": "2026-09-17"
     },
     {
       "name": "foreman",
@@ -169,10 +178,11 @@
       "description": "Software Factory Foreman: an agent supervisor that uses Jev decisions to keep coding agents on task.",
       "category": "agents",
       "language": "Python",
-      "stars": 67,
+      "stars": 249,
       "added": "2026-09-17",
       "created": "2026-09-17",
-      "post": "https://x.com/JoshARosen/status/2100573432089866717"
+      "post": "https://x.com/JoshARosen/status/2100573432089866717",
+      "pushed": "2026-09-17"
     },
     {
       "name": "System One adapter (Python)",
@@ -181,9 +191,10 @@
       "description": "Official drop-in TypeSafeClient replacement backed by OpenAI, Anthropic, and compatible LLM APIs, for comparing Jev against chat models.",
       "category": "official",
       "language": "Python",
-      "stars": 67,
+      "stars": 97,
       "added": "2026-09-17",
-      "created": "2026-08-08"
+      "created": "2026-08-08",
+      "pushed": "2026-09-18"
     },
     {
       "name": "TypeSafe JavaScript SDK",
@@ -192,20 +203,22 @@
       "description": "Official TypeScript/JavaScript client with inferred answer types. npm install @typesafe-ai/sdk.",
       "category": "official",
       "language": "TypeScript",
-      "stars": 62,
+      "stars": 100,
       "added": "2026-09-17",
-      "created": "2026-09-04"
+      "created": "2026-09-04",
+      "pushed": "2026-09-15"
     },
     {
       "name": "TypeSafe agent skills",
       "repo": "typesafe-ai/skills",
-      "site": null,
+      "site": "https://typesafe.ai",
       "description": "Official agent skill for Claude Code, Codex, and compatible agents: primitives, patterns, and how to structure evaluations.",
       "category": "official",
       "language": null,
-      "stars": 60,
+      "stars": 170,
       "added": "2026-09-17",
-      "created": "2026-08-24"
+      "created": "2026-08-24",
+      "pushed": "2026-09-12"
     },
     {
       "name": "jev-review (NiazMorshed2007)",
@@ -214,9 +227,10 @@
       "description": "Local-first MCP plugin for continuous software-quality review by AI coding agents, powered by Jev.",
       "category": "agents",
       "language": "TypeScript",
-      "stars": 45,
+      "stars": 98,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-router (gargpratyush)",
@@ -225,9 +239,10 @@
       "description": "Route to the cheapest model in claude code for your task using jev-router",
       "category": "agents",
       "language": "JavaScript",
-      "stars": 44,
+      "stars": 106,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-18"
     },
     {
       "name": "awesome-typesafe",
@@ -236,9 +251,10 @@
       "description": "Curated list of official resources and community projects for TypeSafe, System One models, and Jev, with a GitHub Pages site.",
       "category": "lists",
       "language": "CSS",
-      "stars": 41,
+      "stars": 151,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-18"
     },
     {
       "name": "jev-drone",
@@ -247,9 +263,10 @@
       "description": "Camera-only autonomous drone in MuJoCo with a small judgment model (TypeSafe Jev) in the loop at 2.5Hz",
       "category": "games",
       "language": "Python",
-      "stars": 36,
+      "stars": 56,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-17"
     },
     {
       "name": "TypeSafe Python SDK",
@@ -258,9 +275,10 @@
       "description": "Official sync and async Python client. pip install typesafe-sdk.",
       "category": "official",
       "language": "Python",
-      "stars": 34,
+      "stars": 70,
       "added": "2026-09-17",
-      "created": "2026-09-04"
+      "created": "2026-09-04",
+      "pushed": "2026-09-18"
     },
     {
       "name": "jev-browser (vlad-terin)",
@@ -272,7 +290,8 @@
       "stars": 31,
       "added": "2026-09-17",
       "created": "2026-09-17",
-      "post": "https://x.com/0xLogicrw/status/2100478725393686556"
+      "post": "https://x.com/0xLogicrw/status/2100478725393686556",
+      "gone": true
     },
     {
       "name": "jev-eval-agent",
@@ -281,9 +300,10 @@
       "description": "Personal-assistant agent built on Vercel's eve with 100 mocked tools, measuring how many steps it takes when Jev picks the tool versus the LLM.",
       "category": "research",
       "language": "HTML",
-      "stars": 25,
+      "stars": 76,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-mcp (jkudish)",
@@ -292,10 +312,11 @@
       "description": "Proof of concept MCP for Typesafe's new Jev AI model",
       "category": "agents",
       "language": "TypeScript",
-      "stars": 24,
+      "stars": 59,
       "added": "2026-09-17",
       "created": "2026-09-17",
-      "post": "https://x.com/0xLogicrw/status/2100478725393686556"
+      "post": "https://x.com/0xLogicrw/status/2100478725393686556",
+      "pushed": "2026-09-18"
     },
     {
       "name": "pi-warden",
@@ -304,9 +325,10 @@
       "description": "Guardrails for Pi built on pi-typesafe that steer the agent instead of interrupting you: Jev judges irreversible and off-task tool calls, detects stuck loops, checks unverified done claims, flags slop",
       "category": "agents",
       "language": "TypeScript",
-      "stars": 22,
+      "stars": 55,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-18"
     },
     {
       "name": "advocaat",
@@ -315,9 +337,10 @@
       "description": "A small, type-safe client for asking AI questions about your data, powered by TypeSafe Jev.",
       "category": "sdks",
       "language": "TypeScript",
-      "stars": 20,
+      "stars": 61,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-18"
     },
     {
       "name": "unclutter",
@@ -326,22 +349,24 @@
       "description": "WXT browser extension: Jev-powered page clutter removal with reusable template rules.",
       "category": "browser",
       "language": "TypeScript",
-      "stars": 17,
+      "stars": 62,
       "added": "2026-09-17",
       "created": "2026-09-17",
-      "post": "https://x.com/thekitze/status/2100595129874817340"
+      "post": "https://x.com/thekitze/status/2100595129874817340",
+      "pushed": "2026-09-18"
     },
     {
       "name": "typesafe-ai-benchmark",
       "repo": "iammrduncan/typesafe-ai-benchmark",
-      "site": null,
+      "site": "https://hackersintheloop.org/",
       "description": "This is a LLM Gateway that mimics typesafe ai structured output. Like an imposter Jev.",
       "category": "research",
       "language": "TypeScript",
-      "stars": 16,
+      "stars": 29,
       "added": "2026-09-17",
       "created": "2026-09-16",
-      "post": "https://x.com/iamMrDuncan/status/2100467548298899918"
+      "post": "https://x.com/iamMrDuncan/status/2100467548298899918",
+      "pushed": "2026-09-18"
     },
     {
       "name": "commit-miner",
@@ -350,9 +375,10 @@
       "description": "Classify Git commit diffs and messages with Jev. Bug fixes, security fixes/CWEs, and change types.",
       "category": "apps",
       "language": "Rust",
-      "stars": 15,
+      "stars": 20,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "mobile-jev",
@@ -361,9 +387,10 @@
       "description": "Standalone Android agent for Mobilerun where Jev makes every decision, with a live React studio and an Uber demo.",
       "category": "browser",
       "language": "JavaScript",
-      "stars": 14,
+      "stars": 69,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "typesafe-mcp",
@@ -372,10 +399,11 @@
       "description": "Go CLI and single-binary MCP server exposing TypeSafe judgments to Claude Desktop, Claude Code, and Codex.",
       "category": "agents",
       "language": "Go",
-      "stars": 12,
+      "stars": 51,
       "added": "2026-09-17",
       "created": "2026-09-17",
-      "post": "https://x.com/0xLogicrw/status/2100478725393686556"
+      "post": "https://x.com/0xLogicrw/status/2100478725393686556",
+      "pushed": "2026-09-18"
     },
     {
       "name": "pi-jev (y0usaf)",
@@ -384,9 +412,10 @@
       "description": "TypeSafe Jev as a decision layer for the Pi coding agent: a measured tool-call gate plus jev_ask for typed, calibrated answers",
       "category": "agents",
       "language": "TypeScript",
-      "stars": 11,
+      "stars": 36,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-17"
     },
     {
       "name": "ruby_llm-typesafe",
@@ -397,7 +426,8 @@
       "language": "Ruby",
       "stars": 9,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-16"
     },
     {
       "name": "jev-on-a-laptop",
@@ -406,10 +436,11 @@
       "description": "Unofficial study: Jev-style parallel typed decisions on stock 1.5B-8B models on an Apple Silicon laptop. Benchmarks, research notes, and a Hugging Face Space demo.",
       "category": "research",
       "language": "Python",
-      "stars": 8,
+      "stars": 14,
       "added": "2026-09-17",
       "created": "2026-09-16",
-      "post": "https://x.com/hhkkmon/status/2100443314957038010"
+      "post": "https://x.com/hhkkmon/status/2100443314957038010",
+      "pushed": "2026-09-17"
     },
     {
       "name": "blink",
@@ -418,10 +449,11 @@
       "description": "Codebase search powered by Jev from @typesafe-ai",
       "category": "apps",
       "language": "TypeScript",
-      "stars": 8,
+      "stars": 14,
       "added": "2026-09-17",
       "created": "2026-09-16",
-      "post": "https://x.com/0xLogicrw/status/2100478725393686556"
+      "post": "https://x.com/0xLogicrw/status/2100478725393686556",
+      "pushed": "2026-09-16"
     },
     {
       "name": "Jev-Moderation-Bot",
@@ -430,9 +462,10 @@
       "description": "Real-time Discord moderation bot: Jev evaluates messages and metadata in parallel to catch phishing, spam, and social engineering with a progressive escalation ladder.",
       "category": "apps",
       "language": "Python",
-      "stars": 6,
+      "stars": 21,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-18"
     },
     {
       "name": "jev-me",
@@ -440,10 +473,11 @@
       "site": null,
       "description": "A grill-me style interrogation of your idea, with Jev doing the grilling.",
       "category": "demos",
-      "language": null,
-      "stars": 6,
+      "language": "Python",
+      "stars": 9,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-18"
     },
     {
       "name": "ai-elo-ranker",
@@ -452,9 +486,10 @@
       "description": "High-speed recursive AI Elo tournament engine powered by Jev and Swiss matchmaking",
       "category": "apps",
       "language": "Python",
-      "stars": 5,
+      "stars": 6,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-axi",
@@ -463,9 +498,10 @@
       "description": "Agent-ergonomic CLI for TypeSafe's Jev: fast calibrated judgments (pick, rate, check, rank, triage, guard) from the shell",
       "category": "agents",
       "language": "TypeScript",
-      "stars": 5,
+      "stars": 8,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-17"
     },
     {
       "name": "typesafe-snake",
@@ -474,9 +510,10 @@
       "description": "Snake auto-played by TypeSafe's Jev model: one System One choice per tick, legal moves and facts generated in code",
       "category": "games",
       "language": "TypeScript",
-      "stars": 5,
+      "stars": 17,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "open-jev (JoshuaSP)",
@@ -485,9 +522,10 @@
       "description": "Typed JSON inference with DiffusionGemma, with Every and Jev benchmark results",
       "category": "research",
       "language": "Python",
-      "stars": 5,
+      "stars": 13,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-16"
     },
     {
       "name": "tsai-sc",
@@ -496,9 +534,10 @@
       "description": "TypeSafe Jev controls original StarCraft shareware through keyboard and mouse with recorded action probabilities.",
       "category": "games",
       "language": "Python",
-      "stars": 5,
+      "stars": 11,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-16"
     },
     {
       "name": "typesafe-ai-playground (BunsDev)",
@@ -507,20 +546,22 @@
       "description": "Community TypeSafe AI playground: 110 use cases, games, dilemmas and model challenges, with editable prompts, A/B comparisons and a mobile-friendly UI.",
       "category": "demos",
       "language": "TypeScript",
-      "stars": 5,
+      "stars": 6,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-18"
     },
     {
       "name": "openvons",
       "repo": "genai-craft/openvons",
-      "site": null,
+      "site": "https://genai-craft.com",
       "description": "openvons (open-Jev): 有限選択肢に確率で答える判断層 — テキスト / 画像 / 日本語音声コマンド",
       "category": "research",
       "language": "Python",
-      "stars": 4,
+      "stars": 7,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-18"
     },
     {
       "name": "HA-Jev",
@@ -529,9 +570,10 @@
       "description": "Home Assistant integration for TypeSafe Jev. Ask a question about your house and get a probability, a choice or a score as an entity.",
       "category": "integrations",
       "language": "Python",
-      "stars": 4,
+      "stars": 6,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-codex-router",
@@ -540,10 +582,11 @@
       "description": "Per-turn model & reasoning routing for Codex, driven by Jev (TypeSafe System One): picks the model, thinking depth and speed mode for every turn.",
       "category": "agents",
       "language": "Python",
-      "stars": 4,
+      "stars": 21,
       "added": "2026-09-17",
       "created": "2026-09-17",
-      "post": "https://x.com/0xLogicrw/status/2100478725393686556"
+      "post": "https://x.com/0xLogicrw/status/2100478725393686556",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-benchmarks",
@@ -552,9 +595,10 @@
       "description": "Probability-aware evaluation for typed decision models: calibration, selective risk, latency, and reproducible benchmarks.",
       "category": "research",
       "language": "Python",
-      "stars": 4,
+      "stars": 6,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "open-jev (daseinlabs)",
@@ -563,9 +607,10 @@
       "description": "One-pass option scoring with a local Gemma 3 4B on Apple silicon via MLX, inspired by jevlike, with a Doom demo.",
       "category": "research",
       "language": "Python",
-      "stars": 4,
+      "stars": 24,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "mario-jev",
@@ -574,9 +619,10 @@
       "description": "Python prototype that plays NES Super Mario Bros. from structured RAM observations, with Jev answering focused movement and jump questions.",
       "category": "games",
       "language": "Python",
-      "stars": 4,
+      "stars": 10,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-mcp (blakestone-x)",
@@ -585,10 +631,11 @@
       "description": "MCP server for TypeSafe Jev: typed classify, score, check, match and screen for any agent, with confidence on every answer",
       "category": "agents",
       "language": "Python",
-      "stars": 4,
+      "stars": 7,
       "added": "2026-09-17",
       "created": "2026-09-16",
-      "post": "https://x.com/0xLogicrw/status/2100478725393686556"
+      "post": "https://x.com/0xLogicrw/status/2100478725393686556",
+      "pushed": "2026-09-16"
     },
     {
       "name": "typesafe-cli (y0usaf)",
@@ -599,7 +646,8 @@
       "language": "TypeScript",
       "stars": 4,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-16"
     },
     {
       "name": "jev-lm",
@@ -610,7 +658,8 @@
       "language": "TypeScript",
       "stars": 4,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-16"
     },
     {
       "name": "typesafe-sdk (joshmn)",
@@ -621,7 +670,8 @@
       "language": "Ruby",
       "stars": 4,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-16"
     },
     {
       "name": "typesafe-ai",
@@ -630,9 +680,10 @@
       "description": "Typed TypeSafe AI clients for Rust, with async and blocking backends and observable retries.",
       "category": "sdks",
       "language": "Rust",
-      "stars": 4,
+      "stars": 7,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-16"
     },
     {
       "name": "decider",
@@ -641,9 +692,10 @@
       "description": "One-pass typed decisions with calibrated probabilities (System One style model), fine-tuned from Qwen3.5-2B",
       "category": "research",
       "language": "Python",
-      "stars": 4,
+      "stars": 9,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-17"
     },
     {
       "name": "LegalForecastBench",
@@ -652,9 +704,10 @@
       "description": "LegalForecast-MTD benchmark alpha and official evaluation workflows",
       "category": "research",
       "language": "Python",
-      "stars": 4,
+      "stars": 5,
       "added": "2026-09-17",
-      "created": "2026-05-18"
+      "created": "2026-05-18",
+      "pushed": "2026-09-17"
     },
     {
       "name": "awesome-jev (AnotiaWang)",
@@ -663,10 +716,11 @@
       "description": "A curated list of awesome Jev / TypeSafe System One applications, libraries, and resources.",
       "category": "lists",
       "language": null,
-      "stars": 3,
+      "stars": 44,
       "added": "2026-09-17",
       "created": "2026-09-17",
-      "post": "https://x.com/0xLogicrw/status/2100478725393686556"
+      "post": "https://x.com/0xLogicrw/status/2100478725393686556",
+      "pushed": "2026-09-18"
     },
     {
       "name": "jevmeter",
@@ -675,10 +729,11 @@
       "description": "Put a live Jev (TypeSafe) meter on any video: every sentence scored, rendered as a 16:9 edit",
       "category": "apps",
       "language": "Python",
-      "stars": 3,
+      "stars": 48,
       "added": "2026-09-17",
       "created": "2026-09-17",
-      "post": "https://x.com/chetaslua/status/2100602714204049588"
+      "post": "https://x.com/chetaslua/status/2100602714204049588",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-korean-benchmark",
@@ -687,9 +742,10 @@
       "description": "Reproducible early-access evaluation of Jev on Korean understanding and medical text, with runtime and cost evidence",
       "category": "research",
       "language": "Python",
-      "stars": 3,
+      "stars": 4,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "typesafe-cli (geilt)",
@@ -700,7 +756,8 @@
       "language": "Python",
       "stars": 3,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-behavior-study",
@@ -711,7 +768,8 @@
       "language": "Python",
       "stars": 3,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-17"
     },
     {
       "name": "winnow",
@@ -720,10 +778,11 @@
       "description": "A calibrated context sieve for Claude Code: every tool result is judged by a System One model before it enters context.",
       "category": "agents",
       "language": "Python",
-      "stars": 3,
+      "stars": 11,
       "added": "2026-09-17",
       "created": "2026-09-16",
-      "post": "https://x.com/0xLogicrw/status/2100478725393686556"
+      "post": "https://x.com/0xLogicrw/status/2100478725393686556",
+      "pushed": "2026-09-18"
     },
     {
       "name": "jevfire",
@@ -732,9 +791,10 @@
       "description": "JEV-inspired parallel decisions for CUDA LLMs. One context, many decisions. vLLM API, game-agent examples, and reproducible benchmarks.",
       "category": "research",
       "language": "JavaScript",
-      "stars": 3,
+      "stars": 4,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-18"
     },
     {
       "name": "openjev (zhihz)",
@@ -743,9 +803,10 @@
       "description": "Local bilingual probability decisions from context, questions, and candidate answers. Independent research preview inspired by TypeSafe Jev.",
       "category": "research",
       "language": "Python",
-      "stars": 3,
+      "stars": 4,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-16"
     },
     {
       "name": "typesafe-skill-router",
@@ -754,20 +815,22 @@
       "description": "TypeSafe (Jev) skill routing for Hermes Agent: names the one skill worth loading, before the model call. Opt-in, stdlib only, ~$0.001 per routed turn.",
       "category": "agents",
       "language": "Python",
-      "stars": 3,
+      "stars": 4,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-16"
     },
     {
       "name": "typesafe-dotnet-sdk",
-      "repo": "saibimajdi/typesafe-dotnet-sdk",
-      "site": null,
+      "repo": "saibimajdi/typesafeai-dotnet-sdk",
+      "site": "https://saibimajdi.github.io/typesafeai-dotnet-sdk/",
       "description": "Community .NET SDK for the TypeSafe AI System One API — typed noul, choice, and score questions with structured, confidence-scored answers. Not affiliated with TypeSafe AI.",
       "category": "sdks",
       "language": "C#",
-      "stars": 3,
+      "stars": 5,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-18"
     },
     {
       "name": "neo4jev",
@@ -776,10 +839,11 @@
       "description": "Typesafe.ai System One Model Jev navigating a Neo4j graph by using a classifier over neighbouring relationships",
       "category": "integrations",
       "language": "Jupyter Notebook",
-      "stars": 2,
+      "stars": 11,
       "added": "2026-09-17",
       "created": "2026-09-16",
-      "post": "https://x.com/0xLogicrw/status/2100478725393686556"
+      "post": "https://x.com/0xLogicrw/status/2100478725393686556",
+      "pushed": "2026-09-18"
     },
     {
       "name": "pi-jev-auto-mode",
@@ -788,9 +852,10 @@
       "description": "Jev (TypeSafe System One) backed auto mode for the Pi coding agent: semantically auto-approves bash, write, and edit tool calls and fails closed when a decision cannot be made.",
       "category": "agents",
       "language": "TypeScript",
-      "stars": 2,
+      "stars": 8,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jevlogs",
@@ -799,9 +864,10 @@
       "description": "Open-source Jev log triage for OpenTelemetry. Score the signal before expensive LLM analysis.",
       "category": "apps",
       "language": "TypeScript",
-      "stars": 2,
+      "stars": 5,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "typesafe-migration-guard",
@@ -812,7 +878,8 @@
       "language": "TypeScript",
       "stars": 2,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "typesafe-mod",
@@ -823,7 +890,8 @@
       "language": "TypeScript",
       "stars": 2,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-judgment",
@@ -834,7 +902,8 @@
       "language": "Python",
       "stars": 2,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev_stock",
@@ -845,7 +914,8 @@
       "language": "Python",
       "stars": 2,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-system-one",
@@ -856,7 +926,8 @@
       "language": "Python",
       "stars": 2,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-for-engineers",
@@ -867,7 +938,8 @@
       "language": "Python",
       "stars": 2,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-16"
     },
     {
       "name": "jev-agent-skill-router",
@@ -876,9 +948,10 @@
       "description": "Typed, confidence-aware agent skill routing with TypeSafe Jev.",
       "category": "agents",
       "language": "Python",
-      "stars": 2,
+      "stars": 4,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-16"
     },
     {
       "name": "typesafe-jev-workflow",
@@ -887,9 +960,10 @@
       "description": "Async LangGraph workflow that gets a typed Jev Choice (invoice or general) and routes each inbound email to the matching handler.",
       "category": "integrations",
       "language": "Python",
-      "stars": 2,
+      "stars": 4,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-16"
     },
     {
       "name": "semdecide",
@@ -898,21 +972,23 @@
       "description": "Typed semantic decisions for Unix pipelines and CI, powered by TypeSafe AI Jev.",
       "category": "apps",
       "language": "Python",
-      "stars": 2,
+      "stars": 5,
       "added": "2026-09-17",
       "created": "2026-09-16",
-      "post": "https://x.com/0xLogicrw/status/2100478725393686556"
+      "post": "https://x.com/0xLogicrw/status/2100478725393686556",
+      "pushed": "2026-09-16"
     },
     {
       "name": "TypeSafeAI.Net",
       "repo": "Hawxy/TypeSafeAI.Net",
-      "site": null,
+      "site": "https://docs.typesafe.ai/",
       "description": ".NET SDK for the TypeSafe AI platform",
       "category": "sdks",
       "language": "C#",
       "stars": 2,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "typesafe-go (cole-gillespie)",
@@ -923,7 +999,8 @@
       "language": "Go",
       "stars": 2,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "typesafe_sdk",
@@ -935,7 +1012,8 @@
       "stars": 1,
       "added": "2026-09-17",
       "created": "2026-09-17",
-      "post": "https://x.com/elixirforum/status/2100495661942677648"
+      "post": "https://x.com/elixirforum/status/2100495661942677648",
+      "pushed": "2026-09-18"
     },
     {
       "name": "rubikjev",
@@ -946,7 +1024,8 @@
       "language": "TypeScript",
       "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jevgo",
@@ -957,7 +1036,8 @@
       "language": "Go",
       "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-ego",
@@ -966,9 +1046,10 @@
       "description": "TypeScript browser agent for ego lite: Jev Ultrafast indexed actions, TypeSafe Jev decisions, persistent observe/act CLI. No Chrome or Playwright.",
       "category": "browser",
       "language": "TypeScript",
-      "stars": 1,
+      "stars": 2,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "trade-jev",
@@ -977,9 +1058,10 @@
       "description": "Backtest Jev (TypeSafe) as a BUY/SELL/HOLD trader on NQ L10 order-book data",
       "category": "research",
       "language": "Python",
-      "stars": 1,
+      "stars": 2,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "awesome-jev (yibie)",
@@ -988,9 +1070,10 @@
       "description": "A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI's System One model for typed decisions.",
       "category": "lists",
       "language": "Python",
-      "stars": 1,
+      "stars": 82,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-18"
     },
     {
       "name": "jev-little-airways",
@@ -1001,7 +1084,8 @@
       "language": "HTML",
       "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-mcp (rashedInt32)",
@@ -1010,9 +1094,10 @@
       "description": "MCP server exposing TypeSafe Jev as typed, calibrated judgment tools: classify, score, check, batched ask. Ships as a Claude Code plugin.",
       "category": "agents",
       "language": "TypeScript",
-      "stars": 1,
+      "stars": 2,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-playground (Little-Planet-Labs)",
@@ -1023,7 +1108,8 @@
       "language": "TypeScript",
       "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "diffjury",
@@ -1032,9 +1118,10 @@
       "description": "DiffJury — TypeSafe Jev PR risk router + code review coach",
       "category": "agents",
       "language": "TypeScript",
-      "stars": 1,
+      "stars": 3,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "kyotsu-ai-bench",
@@ -1045,7 +1132,8 @@
       "language": "HTML",
       "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-shield",
@@ -1054,9 +1142,10 @@
       "description": "Semantic MCP firewall powered by Jev — screens every tool call, tool result, and tool description with calibrated System One verification. 94% block recall, 0 false positives, ~$0.00002/check.",
       "category": "agents",
       "language": "JavaScript",
-      "stars": 1,
+      "stars": 2,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-mcp (benballintyn)",
@@ -1067,7 +1156,8 @@
       "language": null,
       "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "gone": true
     },
     {
       "name": "clarity-judge",
@@ -1078,7 +1168,8 @@
       "language": "TypeScript",
       "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-18"
     },
     {
       "name": "pi-jev-router",
@@ -1087,9 +1178,10 @@
       "description": "Automatic model routing for Pi using TypeSafe's Jev through Vercel AI Gateway",
       "category": "agents",
       "language": "JavaScript",
-      "stars": 1,
+      "stars": 5,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-18"
     },
     {
       "name": "jevclient",
@@ -1100,19 +1192,21 @@
       "language": "Python",
       "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jod",
       "repo": "mateonunez/jod",
-      "site": null,
+      "site": "https://npmjs.com/package/@mateonunez/jod",
       "description": "Semantic schemas over TypeSafe's Jev — validate the state locally, then project typed answers.",
       "category": "sdks",
       "language": "TypeScript",
-      "stars": 1,
+      "stars": 3,
       "added": "2026-09-17",
       "created": "2026-09-17",
-      "post": "https://x.com/mmateonunez/status/2100612699394597125"
+      "post": "https://x.com/mmateonunez/status/2100612699394597125",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-go (guillemus)",
@@ -1123,7 +1217,8 @@
       "language": "Go",
       "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "omp-typesafe",
@@ -1134,7 +1229,8 @@
       "language": "TypeScript",
       "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-18"
     },
     {
       "name": "jcm-router",
@@ -1143,9 +1239,10 @@
       "description": "Local proxy that picks the Claude model and effort per message using TypeSafe Jev. Routes subagents, leaves your cached main chat alone.",
       "category": "agents",
       "language": "TypeScript",
-      "stars": 1,
+      "stars": 2,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "system-one-open",
@@ -1154,9 +1251,10 @@
       "description": "Open replica of TypeSafe's Jev: typed calibrated decisions in one forward pass, on Gemma 4 E2B / Gemma 3 270M (Modal)",
       "category": "research",
       "language": "Python",
-      "stars": 1,
+      "stars": 4,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "pi-quiet-ask",
@@ -1165,9 +1263,10 @@
       "description": "TypeSafe Jev as the pi coding agent's quiet decision layer",
       "category": "agents",
       "language": "TypeScript",
-      "stars": 1,
+      "stars": 2,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-18"
     },
     {
       "name": "gpt-vs-jev",
@@ -1179,7 +1278,8 @@
       "stars": 1,
       "added": "2026-09-17",
       "created": "2026-09-17",
-      "post": "https://x.com/nerdytanay/status/2100465397267144815"
+      "post": "https://x.com/nerdytanay/status/2100465397267144815",
+      "pushed": "2026-09-17"
     },
     {
       "name": "psearch",
@@ -1190,7 +1290,8 @@
       "language": "Python",
       "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jevibe-check",
@@ -1199,9 +1300,10 @@
       "description": "A live tone labeler for Bluesky posts and drafts, using TypeSafe's Jev API.",
       "category": "apps",
       "language": "JavaScript",
-      "stars": 1,
+      "stars": 2,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "commentcop",
@@ -1212,7 +1314,8 @@
       "language": "TypeScript",
       "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-browser (Ying-Kai-Liao)",
@@ -1221,10 +1324,11 @@
       "description": "Browser automation where an LLM plans and Jev (Typesafe System One) decides. Library, CLI and MCP server.",
       "category": "browser",
       "language": "JavaScript",
-      "stars": 1,
+      "stars": 6,
       "added": "2026-09-17",
       "created": "2026-09-16",
-      "post": "https://x.com/0xLogicrw/status/2100478725393686556"
+      "post": "https://x.com/0xLogicrw/status/2100478725393686556",
+      "pushed": "2026-09-17"
     },
     {
       "name": "decisionbridge",
@@ -1235,7 +1339,8 @@
       "language": "HTML",
       "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "ailerix",
@@ -1244,9 +1349,10 @@
       "description": "Type-safe model router. Jev (System One) banks each request to a typed catalog route.",
       "category": "agents",
       "language": "TypeScript",
-      "stars": 1,
+      "stars": 2,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-17"
     },
     {
       "name": "OneVOneJev",
@@ -1255,9 +1361,10 @@
       "description": "1v1 Jev quickscope arena — Three.js + TypeSafe System One",
       "category": "games",
       "language": "TypeScript",
-      "stars": 1,
+      "stars": 5,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-18"
     },
     {
       "name": "padflow-jev-evals",
@@ -1268,7 +1375,8 @@
       "language": "Python",
       "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "mcts-agent",
@@ -1279,7 +1387,8 @@
       "language": "Python",
       "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-18"
     },
     {
       "name": "jev-rerank-bench",
@@ -1290,7 +1399,8 @@
       "language": "Python",
       "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-17"
     },
     {
       "name": "a0-typesafe-ai",
@@ -1299,9 +1409,10 @@
       "description": "TypeSafe AI Jev judgments for Agent Zero, with typed tools and probability cards.",
       "category": "integrations",
       "language": "Python",
-      "stars": 1,
+      "stars": 4,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "ask-jev",
@@ -1312,7 +1423,8 @@
       "language": "PowerShell",
       "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-16"
     },
     {
       "name": "jev-benchmark",
@@ -1321,20 +1433,22 @@
       "description": "Benchmarks and a playground for TypeSafe's Jev (System One) model: chess, and who-is-the-player-talking-to for speech-to-text game NPCs",
       "category": "research",
       "language": "Python",
-      "stars": 1,
+      "stars": 2,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-16"
     },
     {
       "name": "computer_use",
-      "repo": "paulsmith/computer_use",
+      "repo": "paulsmith/computer-use-jev",
       "site": null,
       "description": "macOS computer use driven by Jev (TypeSafe System One) as the decision maker",
       "category": "browser",
       "language": "Go",
-      "stars": 1,
+      "stars": 2,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-17"
     },
     {
       "name": "harden-jev-decides",
@@ -1345,7 +1459,8 @@
       "language": "TypeScript",
       "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-16"
     },
     {
       "name": "jev-predict-skill",
@@ -1356,7 +1471,8 @@
       "language": "HTML",
       "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-16"
     },
     {
       "name": "bicameral",
@@ -1365,9 +1481,10 @@
       "description": "Hybrid coding harness: System 2 writes, System 1 (Jev) runs reflexes.",
       "category": "agents",
       "language": "TypeScript",
-      "stars": 1,
+      "stars": 2,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-16"
     },
     {
       "name": "jev-sec-bench",
@@ -1379,7 +1496,8 @@
       "stars": 1,
       "added": "2026-09-17",
       "created": "2026-09-16",
-      "post": "https://x.com/_GauravGosain/status/2100111398277959715"
+      "post": "https://x.com/_GauravGosain/status/2100111398277959715",
+      "pushed": "2026-09-16"
     },
     {
       "name": "jev-go (Gaurav-Gosain)",
@@ -1390,7 +1508,8 @@
       "language": "Go",
       "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-16"
     },
     {
       "name": "typesafe-sdk-rust",
@@ -1401,7 +1520,8 @@
       "language": "Rust",
       "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-17"
     },
     {
       "name": "Antigravity-mcp-semantic-search-with-TypeSafeAi",
@@ -1412,7 +1532,8 @@
       "language": "Python",
       "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-17"
     },
     {
       "name": "zio-typesafe-ai",
@@ -1423,7 +1544,8 @@
       "language": "Scala",
       "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-18"
     },
     {
       "name": "typesafe-ai-rs",
@@ -1432,9 +1554,10 @@
       "description": "Independent async and blocking Rust SDK for the TypeSafe AI System One API",
       "category": "sdks",
       "language": "Rust",
-      "stars": 1,
+      "stars": 3,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "typesafe-ai-rails",
@@ -1445,7 +1568,8 @@
       "language": "Ruby",
       "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-16"
     },
     {
       "name": "typesafe-client",
@@ -1456,7 +1580,8 @@
       "language": "Rust",
       "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-16"
     },
     {
       "name": "casse-brique-typesafe",
@@ -1467,7 +1592,8 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "sift",
@@ -1478,7 +1604,8 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "typesafe-ai-playground (markjaquith)",
@@ -1487,10 +1614,11 @@
       "description": "A playground for experiments around Jev, TypeSafe's System One model.",
       "category": "demos",
       "language": "Rust",
-      "stars": 0,
+      "stars": 1,
       "added": "2026-09-17",
       "created": "2026-09-17",
-      "post": "https://x.com/0xLogicrw/status/2100478725393686556"
+      "post": "https://x.com/0xLogicrw/status/2100478725393686556",
+      "pushed": "2026-09-17"
     },
     {
       "name": "kunobi-jev",
@@ -1501,7 +1629,8 @@
       "language": "Rust",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-18"
     },
     {
       "name": "jev-playground (hegargarcia)",
@@ -1512,7 +1641,8 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-cli",
@@ -1521,9 +1651,10 @@
       "description": "CLI for TypeSafe AI's Jev evaluation model — typed questions in, structured JSON answers out",
       "category": "apps",
       "language": "TypeScript",
-      "stars": 0,
+      "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-18"
     },
     {
       "name": "jev-mcp (arunav25)",
@@ -1534,7 +1665,8 @@
       "language": "JavaScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-guard",
@@ -1543,9 +1675,10 @@
       "description": "Prompt-injection and dangerous-action guard for coding agents (Claude Code, Codex, pi, ACP), powered by Jev",
       "category": "agents",
       "language": "JavaScript",
-      "stars": 0,
+      "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "JevTicktRouter",
@@ -1556,7 +1689,8 @@
       "language": "C#",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "got-jev",
@@ -1565,9 +1699,10 @@
       "description": "Jev (TypeSafe AI) PoC through Game of Thrones",
       "category": "demos",
       "language": "TypeScript",
-      "stars": 0,
+      "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-18"
     },
     {
       "name": "pong-jev",
@@ -1578,7 +1713,8 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "pg_typesafe",
@@ -1587,9 +1723,10 @@
       "description": "Pre-alpha PostgreSQL extension for TypeSafe AI (Jev) categorical classification",
       "category": "integrations",
       "language": "C",
-      "stars": 0,
+      "stars": 2,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-code",
@@ -1597,10 +1734,11 @@
       "site": null,
       "description": "Bounded TypeSafe Jev workflows for coding agents.",
       "category": "agents",
-      "language": null,
-      "stars": 0,
+      "language": "TypeScript",
+      "stars": 3,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-18"
     },
     {
       "name": "jev-as-a-judge",
@@ -1611,7 +1749,8 @@
       "language": "Python",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "tinyjevclient",
@@ -1622,7 +1761,8 @@
       "language": "Rust",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-triage",
@@ -1633,7 +1773,8 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-18"
     },
     {
       "name": "jev-should-i-apply",
@@ -1644,7 +1785,8 @@
       "language": null,
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-user-jury",
@@ -1655,7 +1797,8 @@
       "language": null,
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-ad-preflight",
@@ -1666,7 +1809,8 @@
       "language": null,
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "cyber-breach-jev",
@@ -1677,7 +1821,8 @@
       "language": "JavaScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-dev",
@@ -1688,7 +1833,8 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-18"
     },
     {
       "name": "omp-jevens-classifier",
@@ -1699,7 +1845,8 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-17"
     },
     {
       "name": "draftpulse",
@@ -1710,7 +1857,8 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-agent-failure-benchmark",
@@ -1719,9 +1867,10 @@
       "description": "Benchmarking Jev (Typesafe.ai) against a strong LLM on the Who&When Pro agent-failure-attribution benchmark (text subset).",
       "category": "research",
       "language": "Python",
-      "stars": 0,
+      "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "Agent-JEV-Tetris",
@@ -1732,7 +1881,8 @@
       "language": "HTML",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "last-exit",
@@ -1743,7 +1893,8 @@
       "language": "JavaScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-report",
@@ -1754,7 +1905,8 @@
       "language": "Python",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jevmlx",
@@ -1763,10 +1915,11 @@
       "description": "Jev-style parallel constrained decisions for any MLX model on Apple Silicon. Typed, schema-valid JSON in one forward pass.",
       "category": "research",
       "language": "Python",
-      "stars": 0,
+      "stars": 18,
       "added": "2026-09-17",
       "created": "2026-09-17",
-      "post": "https://x.com/beni_il_/status/2100617387116568956"
+      "post": "https://x.com/beni_il_/status/2100617387116568956",
+      "pushed": "2026-09-18"
     },
     {
       "name": "almond-fastloop",
@@ -1775,9 +1928,10 @@
       "description": "Almond-fastloop: Almond's browser computer-use rig (Chrome DevTools + TypeSafe Jev), and the Browser Use Olympics benchmark it is measured on.",
       "category": "browser",
       "language": "HTML",
-      "stars": 0,
+      "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-research-eval",
@@ -1788,7 +1942,8 @@
       "language": "HTML",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-document-classification",
@@ -1799,7 +1954,8 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "heist-one",
@@ -1808,9 +1964,10 @@
       "description": "Observable browser stealth game: Jev makes typed guard judgments while deterministic code owns the world.",
       "category": "games",
       "language": "TypeScript",
-      "stars": 0,
+      "stars": 2,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "typesafe-jev",
@@ -1821,7 +1978,8 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-mcp (burnigtm)",
@@ -1832,7 +1990,8 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-18"
     },
     {
       "name": "jev-exploration",
@@ -1843,7 +2002,8 @@
       "language": "Python",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-18"
     },
     {
       "name": "pi-jev-code",
@@ -1854,7 +2014,8 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-secret-detection",
@@ -1866,7 +2027,8 @@
       "stars": 0,
       "added": "2026-09-17",
       "created": "2026-09-17",
-      "post": "https://x.com/Teyhouse/status/2100555273718907064"
+      "post": "https://x.com/Teyhouse/status/2100555273718907064",
+      "pushed": "2026-09-18"
     },
     {
       "name": "jev-phishing-bench",
@@ -1877,7 +2039,8 @@
       "language": "Python",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-17"
     },
     {
       "name": "system-one-gemma",
@@ -1888,7 +2051,8 @@
       "language": "Python",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-18"
     },
     {
       "name": "beatjev",
@@ -1900,7 +2064,8 @@
       "stars": 0,
       "added": "2026-09-17",
       "created": "2026-09-17",
-      "post": "https://x.com/j_lamberts/status/2100592556081832131"
+      "post": "https://x.com/j_lamberts/status/2100592556081832131",
+      "pushed": "2026-09-17"
     },
     {
       "name": "pi-jev (TheoOliveira)",
@@ -1909,9 +2074,10 @@
       "description": "Semantic tool routing and typed System One decisions for the Pi coding agent using TypeSafe Jev",
       "category": "agents",
       "language": "TypeScript",
-      "stars": 0,
+      "stars": 4,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-18"
     },
     {
       "name": "pdoom-protocol",
@@ -1922,7 +2088,8 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "typesafe-triage-guard",
@@ -1933,7 +2100,8 @@
       "language": "Python",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "JevLint",
@@ -1942,9 +2110,10 @@
       "description": "Configurable semantic linting powered by Jev, with file-level NOUL judgments and a magic-strings plugin.",
       "category": "agents",
       "language": "TypeScript",
-      "stars": 0,
+      "stars": 5,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-18"
     },
     {
       "name": "jev-games",
@@ -1955,7 +2124,8 @@
       "language": "Python",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-routing-experiment",
@@ -1963,10 +2133,11 @@
       "site": null,
       "description": "Benchmarking TypeSafe's Jev decision model as a cost-efficient LLM router on RouterArena",
       "category": "research",
-      "language": null,
+      "language": "Python",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev.mods",
@@ -1977,7 +2148,8 @@
       "language": "Java",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-jp-address",
@@ -1988,7 +2160,8 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-system-architect",
@@ -1997,10 +2170,11 @@
       "description": "System-architecture skill for TypeSafe AI Jev/System One — find fuzzy semantic judgment and turn it into small Choice/Score/Noul primitives.",
       "category": "agents",
       "language": null,
-      "stars": 0,
+      "stars": 2,
       "added": "2026-09-17",
       "created": "2026-09-17",
-      "post": "https://x.com/Kantorcodes/status/2100607286498488587"
+      "post": "https://x.com/Kantorcodes/status/2100607286498488587",
+      "pushed": "2026-09-17"
     },
     {
       "name": "Jev Gamecast",
@@ -2011,7 +2185,8 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-18"
     },
     {
       "name": "jev-paper-judge",
@@ -2022,7 +2197,8 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "decido",
@@ -2033,7 +2209,8 @@
       "language": "Python",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-mobile",
@@ -2044,7 +2221,8 @@
       "language": "Python",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jevegis",
@@ -2055,7 +2233,8 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "citation-verifier",
@@ -2066,7 +2245,8 @@
       "language": "JavaScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "super-jev",
@@ -2075,9 +2255,10 @@
       "description": "A small, extensible decision-to-action harness for TypeSafe Jev",
       "category": "sdks",
       "language": "TypeScript",
-      "stars": 0,
+      "stars": 4,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-18"
     },
     {
       "name": "laravel-typesafe-jev",
@@ -2086,20 +2267,22 @@
       "description": "Unofficial Laravel integration for TypeSafe Jev AI with typed responses, async requests, scoped dependency injection, and testing fakes.",
       "category": "integrations",
       "language": "PHP",
-      "stars": 0,
+      "stars": 2,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "calibre",
-      "repo": "FirasSX914/calibre",
+      "repo": "FirasSX914/Janus",
       "site": null,
       "description": "Calibration and confidence-based routing measured on Banking77: 80.2% accuracy at $0.103 per 500 decisions",
       "category": "research",
       "language": "Python",
-      "stars": 0,
+      "stars": 2,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-18"
     },
     {
       "name": "browser-use-olympics",
@@ -2110,7 +2293,8 @@
       "language": "HTML",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "Jev4Mellea",
@@ -2121,7 +2305,8 @@
       "language": "Python",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "openjev-experiments",
@@ -2132,7 +2317,8 @@
       "language": "Python",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "shade-arena-jev-monitor",
@@ -2143,18 +2329,20 @@
       "language": "Python",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "turbo",
-      "repo": "sightmap/turbo",
+      "repo": "sightmap/jev-turbo",
       "site": null,
       "description": "Jev-powered semantic browser use",
       "category": "browser",
-      "language": null,
+      "language": "Go",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-18"
     },
     {
       "name": "jev-play-ping-pong",
@@ -2165,18 +2353,20 @@
       "language": "JavaScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-rerank",
-      "repo": "hev/jev-rerank",
+      "repo": "hev/reranker",
       "site": null,
       "description": "Use Jev (TypeSafe's System One model) as a calibrated reranker: one call, up to 30 documents, a probability per document. Apache-2.0.",
       "category": "apps",
       "language": "Python",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "thaiexam-jev-charts",
@@ -2187,7 +2377,8 @@
       "language": "HTML",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "sloppy-jevs-extension",
@@ -2198,7 +2389,8 @@
       "language": "JavaScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-skillful",
@@ -2207,9 +2399,10 @@
       "description": "Per-prompt capability router for coding agents: resolves installed skills, MCP servers, agents and commands against your prompt via TypeSafe Jev, and measures whether the injection actually helps.",
       "category": "agents",
       "language": "TypeScript",
-      "stars": 0,
+      "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "barrunto",
@@ -2218,9 +2411,10 @@
       "description": "A Chrome extension that brings TypeSafe's Jev to X.com to analyze posts as you browse",
       "category": "browser",
       "language": "TypeScript",
-      "stars": 0,
+      "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "human-compiler",
@@ -2231,7 +2425,8 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-gomoku",
@@ -2242,7 +2437,8 @@
       "language": "MoonBit",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-18"
     },
     {
       "name": "killmyidea",
@@ -2251,9 +2447,10 @@
       "description": "Describe your startup idea. Jev decides: kill it, fix it or ship it.",
       "category": "demos",
       "language": "TypeScript",
-      "stars": 0,
+      "stars": 12,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-18"
     },
     {
       "name": "typesafe-3d-chess",
@@ -2264,7 +2461,8 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-browser (tontoko)",
@@ -2272,10 +2470,11 @@
       "site": null,
       "description": "One grounded Jev/Playwright core: typed SDK, persistent CLI, and MCP server with native browser operations and deterministic assertions.",
       "category": "browser",
-      "language": "TypeScript",
-      "stars": 0,
+      "language": "JavaScript",
+      "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-18"
     },
     {
       "name": "jev-browser (MahmoudAdelbghany)",
@@ -2286,7 +2485,8 @@
       "language": "JavaScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "emoji-jev",
@@ -2297,7 +2497,8 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-column-race",
@@ -2308,7 +2509,8 @@
       "language": "JavaScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "ask-jev-skill",
@@ -2317,10 +2519,11 @@
       "description": "Skill for Hermes, and other agents, to ask typesafe's jev",
       "category": "agents",
       "language": "Python",
-      "stars": 0,
+      "stars": 24,
       "added": "2026-09-17",
       "created": "2026-09-17",
-      "post": "https://x.com/KevinMagnan/status/2100587059928764726"
+      "post": "https://x.com/KevinMagnan/status/2100587059928764726",
+      "pushed": "2026-09-17"
     },
     {
       "name": "judging-with-typesafe",
@@ -2329,9 +2532,10 @@
       "description": "Скилл для агентов Letta: суждения по критериям через TypeSafe System One (Jev)",
       "category": "integrations",
       "language": "Python",
-      "stars": 0,
+      "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "qwen-rlcd",
@@ -2340,9 +2544,10 @@
       "description": "Jev-style calibrated decision model (Choice/Score/Noul) on Qwen3.5-0.8B",
       "category": "research",
       "language": "Python",
-      "stars": 0,
+      "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev2048",
@@ -2353,7 +2558,8 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-resume-analyzer",
@@ -2364,7 +2570,8 @@
       "language": "Python",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "typesafe-sdk (binnash)",
@@ -2375,7 +2582,8 @@
       "language": "PHP",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-18"
     },
     {
       "name": "jev-trace-classifier",
@@ -2386,7 +2594,8 @@
       "language": "Python",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "pydantic-jev-examples",
@@ -2395,9 +2604,10 @@
       "description": "Pydantic AI capabilities made stronger with Jev: small runnable demos, one file each",
       "category": "integrations",
       "language": "Python",
-      "stars": 0,
+      "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "river-oaks",
@@ -2408,18 +2618,20 @@
       "language": null,
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "hundred",
-      "repo": "jammaru/hundred",
+      "repo": "jammaru/jev-lab",
       "site": null,
       "description": "100 AI NPCs live in a tiny town. Jev chooses the next action; the world writes the story.",
       "category": "games",
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-18"
     },
     {
       "name": "Search-Function-Test",
@@ -2430,7 +2642,8 @@
       "language": "JavaScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "snake-jev",
@@ -2441,7 +2654,8 @@
       "language": "Python",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-bun1",
@@ -2452,7 +2666,8 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-askable-arm",
@@ -2463,18 +2678,20 @@
       "language": "Python",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "pi-agent-foreman",
       "repo": "alexshpunt/pi-agent-foreman",
-      "site": null,
+      "site": "https://pi.dev/packages/pi-agent-foreman",
       "description": "Send Pi agents back to work when they stop before the job is done.",
       "category": "agents",
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-13"
+      "created": "2026-09-13",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jevplay",
@@ -2485,7 +2702,8 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "mcpmatch",
@@ -2496,7 +2714,8 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "spendbrake",
@@ -2507,7 +2726,8 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "harnessjudge",
@@ -2518,7 +2738,8 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "swarmrouter",
@@ -2529,7 +2750,8 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "toolgate",
@@ -2538,9 +2760,10 @@
       "description": "Agent tool/MCP call gate — allow / ask_human / deny via TypeSafe Jev",
       "category": "demos",
       "language": "TypeScript",
-      "stars": 0,
+      "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-playground (wustep)",
@@ -2551,7 +2774,8 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-18"
     },
     {
       "name": "jev-playwright-mcp",
@@ -2562,7 +2786,8 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-audio-beeper",
@@ -2573,7 +2798,8 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "check-risk",
@@ -2584,7 +2810,8 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "guard-jev",
@@ -2593,9 +2820,10 @@
       "description": "Comment-moderation playground: paste a comment, Jev decides what to do with it.",
       "category": "demos",
       "language": "TypeScript",
-      "stars": 0,
+      "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-doom-agent",
@@ -2604,9 +2832,10 @@
       "description": "A browser-native Doom agent experiment with structured spatial state, composable AI controls, live decision telemetry, and a Chocolate Doom WebAssembly runtime.",
       "category": "games",
       "language": "TypeScript",
-      "stars": 0,
+      "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jevgpt",
@@ -2615,9 +2844,10 @@
       "description": "A chatbot built on a model that cannot generate text (TypeSafe AI's Jev, driven autoregressively)",
       "category": "research",
       "language": "TypeScript",
-      "stars": 0,
+      "stars": 2,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "typesafe-chess",
@@ -2628,7 +2858,8 @@
       "language": "JavaScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-snake",
@@ -2639,7 +2870,8 @@
       "language": "Python",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-shadcn-lint-eval",
@@ -2650,7 +2882,8 @@
       "language": "JavaScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "limpet",
@@ -2661,7 +2894,8 @@
       "language": "Python",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "hiresignal",
@@ -2672,7 +2906,8 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "trustgate",
@@ -2683,7 +2918,8 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "lanebreak",
@@ -2694,7 +2930,8 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "cartshield",
@@ -2705,7 +2942,8 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "pulselane",
@@ -2716,7 +2954,8 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "agent-gate-loop",
@@ -2727,7 +2966,8 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "switchboard",
@@ -2738,7 +2978,8 @@
       "language": "Python",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-tetris",
@@ -2749,7 +2990,8 @@
       "language": "Python",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-browser (KesavanKing)",
@@ -2760,7 +3002,8 @@
       "language": "Python",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "typesafe-arena",
@@ -2769,9 +3012,10 @@
       "description": "A playground for TypeSafeAI's Jev Model",
       "category": "demos",
       "language": "Rust",
-      "stars": 0,
+      "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "ps2-ai-agent",
@@ -2782,7 +3026,8 @@
       "language": "Python",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-deferred-crispification",
@@ -2793,7 +3038,8 @@
       "language": "TeX",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-17"
     },
     {
       "name": "otto",
@@ -2802,9 +3048,10 @@
       "description": "Open-source native computer use for macOS and Windows: TypeSafe Jev, local OCR, and selective planning.",
       "category": "browser",
       "language": "TypeScript",
-      "stars": 0,
+      "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "every",
@@ -2813,9 +3060,10 @@
       "description": "Ask a yes/no question of every function in a codebase. Ranked answers in seconds, for cents. Grep whose pattern is a question, powered by TypeSafe Jev.",
       "category": "apps",
       "language": "Python",
-      "stars": 0,
+      "stars": 2,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-bfs",
@@ -2826,7 +3074,8 @@
       "language": "Python",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "Instinct",
@@ -2835,9 +3084,10 @@
       "description": "Instinct: describe a case in free text and Jev picks the UI from a fixed catalog without generating a line of code or copy.",
       "category": "demos",
       "language": "TypeScript",
-      "stars": 0,
+      "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev",
@@ -2848,7 +3098,8 @@
       "language": "Go",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "RISC-jeV",
@@ -2857,9 +3108,10 @@
       "description": "I tortured Jev into being a RISC-V CPU.",
       "category": "research",
       "language": "Python",
-      "stars": 0,
+      "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "frost",
@@ -2870,7 +3122,8 @@
       "language": "Go",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-finance-benchmark",
@@ -2881,7 +3134,8 @@
       "language": null,
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-pick-and-place-study",
@@ -2892,7 +3146,8 @@
       "language": "Python",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-spam-eval",
@@ -2900,10 +3155,11 @@
       "site": null,
       "description": "Zero-shot spam filtering with TypeSafe Jev Noul questions, compared with TF-IDF baselines",
       "category": "research",
-      "language": "Python",
+      "language": "Jupyter Notebook",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "JevTest",
@@ -2914,7 +3170,8 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-18"
     },
     {
       "name": "pi-typesafe-jev",
@@ -2925,7 +3182,8 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-demos",
@@ -2936,7 +3194,8 @@
       "language": "Dart",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "shady-town",
@@ -2947,7 +3206,8 @@
       "language": "Ruby",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "Job Risk Analyzer",
@@ -2958,7 +3218,8 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-chat",
@@ -2967,9 +3228,10 @@
       "description": "A chatbot from typed Jev decisions: hierarchical speculative decoding over System One probabilities.",
       "category": "research",
       "language": "Python",
-      "stars": 0,
+      "stars": 3,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-router (prismhq)",
@@ -2978,9 +3240,10 @@
       "description": "Open-source LLM router that uses TypeSafe's Jev to pick a model, on top of LiteLLM",
       "category": "agents",
       "language": "Python",
-      "stars": 0,
+      "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "pi-typesafe",
@@ -2991,19 +3254,21 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "typesafe-on-neon",
-      "repo": "andrelandgraf/typesafe-on-neon",
+      "repo": "andrelandgraf/safer-with-jev",
       "site": null,
       "description": "Neon Function proxy for the Neon AI Gateway with TypeSafe Jev routing.",
       "category": "integrations",
       "language": "TypeScript",
-      "stars": 0,
+      "stars": 3,
       "added": "2026-09-17",
       "created": "2026-09-17",
-      "post": "https://x.com/0xLogicrw/status/2100478725393686556"
+      "post": "https://x.com/0xLogicrw/status/2100478725393686556",
+      "pushed": "2026-09-18"
     },
     {
       "name": "jev-anotacao-sentencas",
@@ -3014,7 +3279,8 @@
       "language": "Python",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-16"
     },
     {
       "name": "jev-synergy-screening",
@@ -3023,9 +3289,10 @@
       "description": "Jev (TypeSafe System One) × ASReview SYNERGY abstract screening demo — Choice/Noul vs gold labels",
       "category": "research",
       "language": "Python",
-      "stars": 0,
+      "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-16"
     },
     {
       "name": "tsai-civ2",
@@ -3034,9 +3301,10 @@
       "description": "TypeSafe Jev plays original Civilization II in a browser, with live action probabilities. Experimental full-game harness.",
       "category": "games",
       "language": "Python",
-      "stars": 0,
+      "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-18"
     },
     {
       "name": "typesafe-assist",
@@ -3045,9 +3313,10 @@
       "description": "Home Assistant Assist conversation agent powered by TypeSafe's Jev (System One) model",
       "category": "integrations",
       "language": "Python",
-      "stars": 0,
+      "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-16"
     },
     {
       "name": "jev-board-lab",
@@ -3058,7 +3327,8 @@
       "language": "JavaScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-16"
     },
     {
       "name": "jev-review (thiago-ss)",
@@ -3069,7 +3339,8 @@
       "language": "Python",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-16"
     },
     {
       "name": "hermes-jev-router",
@@ -3080,7 +3351,8 @@
       "language": "Python",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-16"
     },
     {
       "name": "jev-lab",
@@ -3091,7 +3363,8 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-16"
     },
     {
       "name": "btc-jev-signal",
@@ -3100,9 +3373,10 @@
       "description": "Experimental multi-horizon BTC signal generator using TypeSafe Jev probabilities and Binance market data.",
       "category": "apps",
       "language": "TypeScript",
-      "stars": 0,
+      "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-16"
     },
     {
       "name": "zcode-jev",
@@ -3113,7 +3387,8 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-16"
     },
     {
       "name": "jev-builder-loop",
@@ -3124,7 +3399,8 @@
       "language": "Python",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-16"
     },
     {
       "name": "jev-headline-bench",
@@ -3135,7 +3411,8 @@
       "language": "Go",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-16"
     },
     {
       "name": "jev-alpha-bench",
@@ -3146,7 +3423,8 @@
       "language": "Go",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-16"
     },
     {
       "name": "FinancialPredictionJev",
@@ -3157,7 +3435,8 @@
       "language": "Python",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-16"
     },
     {
       "name": "jev-freeform",
@@ -3166,9 +3445,10 @@
       "description": "An observable raw-character chat experiment powered entirely by TypeSafe Jev Choice",
       "category": "research",
       "language": "JavaScript",
-      "stars": 0,
+      "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-16"
     },
     {
       "name": "scam-shield",
@@ -3179,7 +3459,8 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-13"
+      "created": "2026-09-13",
+      "pushed": "2026-09-13"
     },
     {
       "name": "typesafe-sdk-swift",
@@ -3188,9 +3469,10 @@
       "description": "Swift SDK for TypeSafe AI",
       "category": "sdks",
       "language": "Swift",
-      "stars": 0,
+      "stars": 2,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "typesafe-go (zhirschtritt)",
@@ -3201,18 +3483,20 @@
       "language": "Go",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-17"
     },
     {
       "name": "n8n-nodes-typesafe-ai",
       "repo": "DomMonte/n8n-nodes-typesafe-ai",
-      "site": null,
+      "site": "https://docs.typesafe.ai",
       "description": "n8n community node for the TypeSafe AI System One API — typed yes/no, choice and score questions with calibrated probabilities",
       "category": "integrations",
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "typesafeai-review",
@@ -3223,7 +3507,8 @@
       "language": "Python",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "roverlab",
@@ -3234,7 +3519,8 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "extremely-specific-council",
@@ -3245,7 +3531,8 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "typesafe-comment",
@@ -3256,7 +3543,8 @@
       "language": "Python",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "typesafeai-go",
@@ -3265,9 +3553,10 @@
       "description": "Go SDK for TypeSafe AI API https://docs.typesafe.ai/api",
       "category": "sdks",
       "language": "Go",
-      "stars": 0,
+      "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "typesafe_sdk_ex",
@@ -3275,10 +3564,11 @@
       "site": null,
       "description": "Typesafe AI SDK in Elixir using Req",
       "category": "sdks",
-      "language": null,
+      "language": "Elixir",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-18"
     },
     {
       "name": "typesafe-sdk-php",
@@ -3289,7 +3579,8 @@
       "language": "PHP",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "typesafe-sdk-go",
@@ -3300,7 +3591,8 @@
       "language": "Go",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "typesafe-ui",
@@ -3311,7 +3603,8 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "river-run-typesafe",
@@ -3322,18 +3615,20 @@
       "language": "Python",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-18"
     },
     {
       "name": "typesafe_ai (typesend)",
       "repo": "typesend/typesafe_ai",
-      "site": null,
+      "site": "https://typesafe-api.hexdocs.pm/readme.html",
       "description": "Unofficial Elixir SDK for the TypeSafe AI API",
       "category": "sdks",
       "language": "Elixir",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-17"
     },
     {
       "name": "Typesafe_chess_eval",
@@ -3344,7 +3639,8 @@
       "language": "Python",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "typesafe-minecraft-demo",
@@ -3355,7 +3651,8 @@
       "language": "JavaScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-17"
     },
     {
       "name": "typesafe.zig",
@@ -3366,7 +3663,8 @@
       "language": "Zig",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-18"
     },
     {
       "name": "typesafe",
@@ -3377,7 +3675,8 @@
       "language": "Elixir",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-17"
     },
     {
       "name": "typesafe_ai (hfiguera)",
@@ -3388,7 +3687,8 @@
       "language": "Elixir",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-18"
     },
     {
       "name": "transcript-scorecard",
@@ -3399,7 +3699,8 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-17"
     },
     {
       "name": "Probably",
@@ -3410,7 +3711,8 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-16"
     },
     {
       "name": "mimicry",
@@ -3421,7 +3723,8 @@
       "language": "Python",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-13"
+      "created": "2026-09-13",
+      "pushed": "2026-09-13"
     },
     {
       "name": "s1-rs",
@@ -3432,7 +3735,8 @@
       "language": "Rust",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-16"
     },
     {
       "name": "typesafe-rs",
@@ -3443,7 +3747,8 @@
       "language": "Rust",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-16"
     },
     {
       "name": "terrarium",
@@ -3454,7 +3759,8 @@
       "language": "JavaScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "system-one",
@@ -3463,9 +3769,10 @@
       "description": "Batched single-token choice inference for open language models, compatible with TypeSafe",
       "category": "research",
       "language": "Python",
-      "stars": 0,
+      "stars": 2,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-18"
     },
     {
       "name": "s1s",
@@ -3476,7 +3783,8 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "typesafe-demo-mcp",
@@ -3487,18 +3795,20 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "pkg-gate",
       "repo": "hemanth/pkg-gate",
-      "site": null,
+      "site": "https://hemanth.github.io/pkg-gate/",
       "description": "Pre-install security gate for npm lifecycle scripts using TypeSafe System One.",
       "category": "apps",
       "language": "JavaScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "typesafe-oracles",
@@ -3509,7 +3819,8 @@
       "language": "JavaScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-16"
     },
     {
       "name": "system-one-adapter-rust",
@@ -3520,7 +3831,8 @@
       "language": "Rust",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-16"
     },
     {
       "name": "siege",
@@ -3531,18 +3843,20 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-13"
+      "created": "2026-09-13",
+      "pushed": "2026-09-13"
     },
     {
       "name": "jev-t-rex-runner",
       "repo": "joshlarsen/jev-t-rex-runner",
-      "site": null,
+      "site": "https://devfolioco.github.io/t-rex-runner-game/",
       "description": "Chrome dino game played by Typesafe AI Jev model",
       "category": "games",
       "language": "JavaScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "PocketJev",
@@ -3553,7 +3867,8 @@
       "language": "Swift",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "TypeSafe AI",
@@ -4130,9 +4445,10 @@
       "description": "Zod validates the shape, Jev validates the meaning: semantic checks on request bodies become calibrated probabilities you threshold in code.",
       "category": "sdks",
       "language": "TypeScript",
-      "stars": 1,
+      "stars": 6,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-browse",
@@ -4143,7 +4459,8 @@
       "language": "JavaScript",
       "stars": 1,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jev-browser (vinilana)",
@@ -4152,20 +4469,22 @@
       "description": "Hybrid browser harness: an LLM turns goals into verifiable subgoals, Jev chooses each action and DOM field, Playwright acts.",
       "category": "browser",
       "language": "TypeScript",
-      "stars": 1,
+      "stars": 3,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-17"
     },
     {
       "name": "misereru-slide-jev",
       "repo": "myokoym/misereru-slide-jev",
-      "site": null,
+      "site": "https://myokoym.github.io/misereru-slide-jev/",
       "description": "Ongoing Japanese research deck on Jev and System One models, maintained as Markdown slides.",
       "category": "research",
       "language": "JavaScript",
       "stars": 0,
       "added": "2026-09-17",
-      "created": "2026-09-16"
+      "created": "2026-09-16",
+      "pushed": "2026-09-17"
     },
     {
       "name": "Jev Driving Lab",
@@ -4176,7 +4495,8 @@
       "language": "JavaScript",
       "stars": 0,
       "added": "2026-09-17",
-      "post": "https://x.com/kavehmz/status/2100616111771238881"
+      "post": "https://x.com/kavehmz/status/2100616111771238881",
+      "pushed": "2026-09-18"
     },
     {
       "name": "typesafe-image-diffusion",
@@ -4187,7 +4507,8 @@
       "language": "HTML",
       "stars": 0,
       "added": "2026-09-17",
-      "post": "https://x.com/just_aryansingh/status/2100617080395710748"
+      "post": "https://x.com/just_aryansingh/status/2100617080395710748",
+      "pushed": "2026-09-17"
     },
     {
       "name": "agent-handoff-gate",
@@ -4198,7 +4519,8 @@
       "language": "Python",
       "stars": 0,
       "added": "2026-09-17",
-      "post": "https://x.com/zxdubx/status/2100604919120121960"
+      "post": "https://x.com/zxdubx/status/2100604919120121960",
+      "pushed": "2026-09-17"
     },
     {
       "name": "TypeAR",
@@ -4207,9 +4529,10 @@
       "description": "Type-safe one-decision-per-token decoding engine for autoregressive LLMs, inspired by Jev.",
       "category": "research",
       "language": "Python",
-      "stars": 0,
+      "stars": 8,
       "added": "2026-09-17",
-      "post": "https://x.com/MingtianZhang/status/2100579236960682120"
+      "post": "https://x.com/MingtianZhang/status/2100579236960682120",
+      "pushed": "2026-09-18"
     },
     {
       "name": "Loki",
@@ -4218,9 +4541,10 @@
       "description": "Self-improving agent harness with an optional TypeSafe Jev companion for typed Choice, Score, and Noul judgments.",
       "category": "integrations",
       "language": "Python",
-      "stars": 17,
+      "stars": 23,
       "added": "2026-09-17",
-      "post": "https://x.com/wundercorp/status/2100619500966056196"
+      "post": "https://x.com/wundercorp/status/2100619500966056196",
+      "pushed": "2026-09-17"
     },
     {
       "name": "agentgateway Jev guardrail example",
@@ -4439,9 +4763,10 @@
       "description": "Train a small model that chooses among a changing list of text options, one probability per option in a single pass. Includes Doom, chess, and Wikispeedia demos.",
       "category": "research",
       "language": "Python",
-      "stars": 548,
+      "stars": 798,
       "added": "2026-09-17",
-      "post": "https://x.com/hhkkmon/status/2100443314957038010"
+      "post": "https://x.com/hhkkmon/status/2100443314957038010",
+      "pushed": "2026-09-16"
     },
     {
       "name": "jevex",
@@ -4451,7 +4776,8 @@
       "category": "agents",
       "language": "Python",
       "stars": 3,
-      "added": "2026-09-17"
+      "added": "2026-09-17",
+      "pushed": "2026-09-17"
     },
     {
       "name": "jevbetter",
@@ -4460,8 +4786,9 @@
       "description": "A stronger one-pass scorer over a variable list of text options: hashed n-gram encoder, rival-aware attention, gated head, temperature scaling, benchmarked against jevlike.",
       "category": "research",
       "language": "Python",
-      "stars": 3,
-      "added": "2026-09-17"
+      "stars": 10,
+      "added": "2026-09-17",
+      "pushed": "2026-09-16"
     },
     {
       "name": "chess-jev",
@@ -4614,9 +4941,10 @@
       "description": "Live verdict page: feeds Jev the day’s Florida Man, odd-news, politics and world headlines and asks all three primitives whether AI should kill us all, refreshed every ten minutes.",
       "category": "demos",
       "language": "JavaScript",
-      "stars": 0,
+      "stars": 2,
       "added": "2026-09-17",
-      "created": "2026-09-17"
+      "created": "2026-09-17",
+      "pushed": "2026-09-18"
     }
   ]
 }
