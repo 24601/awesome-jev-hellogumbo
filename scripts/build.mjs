@@ -8,7 +8,8 @@ const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const data = JSON.parse(readFileSync(resolve(root, "data/projects.json"), "utf8"));
 const template = readFileSync(resolve(root, "scripts/template.html"), "utf8");
 
-const { categories, projects } = data;
+const categories = data.categories;
+const projects = data.projects.filter((p) => !p.gone);
 const byCategory = Object.fromEntries(categories.map((c) => [c.id, []]));
 for (const p of projects) {
   if (!byCategory[p.category]) throw new Error(`Unknown category "${p.category}" on ${p.name}`);

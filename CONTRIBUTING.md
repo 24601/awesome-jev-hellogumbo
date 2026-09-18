@@ -47,9 +47,12 @@ Empty repos, placeholder READMEs, and brand-name squats are removed when we find
 ## Maintenance scripts
 
 ```bash
-npm run refresh    # update stars, language, and homepages from the GitHub API
-npm run discover   # print repos mentioning Jev/TypeSafe that are not listed yet
-npm run build      # regenerate README.md and site/index.html
+npm run refresh              # update stars, language, homepages, renames, and mark removed repos
+npm run discover             # print repos mentioning Jev/TypeSafe that are not listed yet
+npm run discover -- --add    # append the ones that pass the inclusion bar (2+ stars, or 1 star with a site)
+npm run build                # regenerate README.md and site/index.html
 ```
 
 Set `GITHUB_TOKEN` to avoid rate limits on `refresh` and `discover`.
+
+A nightly GitHub Action runs refresh, discover, and build, commits the result, and deploys the site. Repos that should never be auto-added go in `data/exclude.json`. Entries whose repo returns 404 are kept in the data with `"gone": true` and hidden from the README and site until they come back.
