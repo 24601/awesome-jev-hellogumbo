@@ -8,7 +8,7 @@ Jev takes a state plus a set of typed questions (Choice, Score, Noul) and return
 
 Not affiliated with TypeSafe AI. To add a project, open a pull request or [file an issue](https://github.com/hellogumbo/awesome-jev/issues/new?template=submit-project.yml). See [CONTRIBUTING.md](CONTRIBUTING.md).
 
-409 entries · last refreshed 2026-09-17
+410 entries · last refreshed 2026-09-17
 
 ## Contents
 
@@ -342,6 +342,7 @@ Live demos and playgrounds.
 - [Probably](https://github.com/JordiParraCrespo/typesafe-ai-trading-showcase) ([site](https://typesafe-ai-trading-showcase.vercel.app)) - Probably: live BTC, ETH, and XRP prices with a shared TypeSafe buy-or-wait demonstration. No trades placed.
 - [pulselane](https://github.com/ndolinschi/pulselane) ([site](https://pulselane-topaz.vercel.app)) - PulseLane — clinic triage decisions via TypeSafe Jev.
 - [Search-Function-Test](https://github.com/Shifros/Search-Function-Test) ([site](https://search-function-test.vercel.app)) - A test project based on Jev AI, the goal is to build a search function for a blog/article website that has 100s of articles to search from, So the user can actually use the search as chat to question anything and find related answers/articles.
+- [Should AI Kill Us All?](https://github.com/hellogumbo/should-ai-kill-us-all) ([site](https://shouldaikillusall.com)) - Live verdict page: feeds Jev the day’s Florida Man, odd-news, politics and world headlines and asks all three primitives whether AI should kill us all, refreshed every ten minutes.
 - [spendbrake](https://github.com/ndolinschi/spendbrake) ([site](https://spendbrake.vercel.app)) - Agent budget brake — continue / downgrade_model / stop via TypeSafe Jev.
 - [swarmrouter](https://github.com/ndolinschi/swarmrouter) ([site](https://swarmrouter.vercel.app)) - Route tasks to research/code/browser/support/writer agents via TypeSafe Jev.
 - [toolgate](https://github.com/ndolinschi/toolgate) ([site](https://toolgate.vercel.app)) - Agent tool/MCP call gate — allow / ask_human / deny via TypeSafe Jev.

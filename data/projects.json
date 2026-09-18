@@ -4606,6 +4606,17 @@
       "stars": 0,
       "added": "2026-09-17",
       "url": "https://x.com/mark1nhu/status/2100620075090792490"
+    },
+    {
+      "name": "Should AI Kill Us All?",
+      "repo": "hellogumbo/should-ai-kill-us-all",
+      "site": "https://shouldaikillusall.com",
+      "description": "Live verdict page: feeds Jev the day’s Florida Man, odd-news, politics and world headlines and asks all three primitives whether AI should kill us all, refreshed every ten minutes.",
+      "category": "demos",
+      "language": "JavaScript",
+      "stars": 0,
+      "added": "2026-09-17",
+      "created": "2026-09-17"
     }
   ]
 }
