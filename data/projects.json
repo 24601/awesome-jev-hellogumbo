@@ -8161,6 +8161,16 @@
       "language": "Python",
       "stars": 0,
       "added": "2026-09-20"
+    },
+    {
+      "name": "jlink",
+      "repo": "keltokhy/jlink",
+      "site": null,
+      "description": "Links records under a plain-English match rule using Jev Noul pair judgments, with local candidate blocking and match resolution.",
+      "category": "apps",
+      "language": "Python",
+      "stars": 0,
+      "added": "2026-09-20"
     }
   ]
 }
