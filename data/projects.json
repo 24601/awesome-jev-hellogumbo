@@ -8071,6 +8071,16 @@
       "language": "Python",
       "stars": 0,
       "added": "2026-09-19"
+    },
+    {
+      "name": "Formatho Jev Playground",
+      "repo": null,
+      "site": "https://www.formatho.com/tools/jev-playground",
+      "description": "Browser-based request builder for the System One API: compose state plus typed Noul, Choice, and Score questions. Mock mode runs locally without an API key; Live mode requires your TypeSafe key and calls api.typesafe.ai directly. Generates typesafe_sdk Python. Includes companion Jev Suitability Test.",
+      "category": "demos",
+      "language": null,
+      "stars": 0,
+      "added": "2026-09-20"
     }
   ]
 }
