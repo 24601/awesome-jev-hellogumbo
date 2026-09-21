@@ -8131,6 +8131,16 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-20"
+    },
+    {
+      "name": "jevmetrics",
+      "repo": "ishantanu/jevmetrics",
+      "site": null,
+      "description": "OpenTelemetry Collector connector that uses Jev to assess metric metadata and apply retention policies before export.",
+      "category": "integrations",
+      "language": "Go",
+      "stars": 0,
+      "added": "2026-09-20"
     }
   ]
 }
