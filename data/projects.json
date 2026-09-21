@@ -8191,6 +8191,16 @@
       "language": "TypeScript",
       "stars": 0,
       "added": "2026-09-21"
+    },
+    {
+      "name": "taste-lint",
+      "repo": "mblode/taste-lint",
+      "site": "https://taste-lint.blode.md",
+      "description": "CLI that uses Jev to catch AI slop in UI, copy, and agent instructions before ship (probabilities on semantic taste checks).",
+      "category": "agents",
+      "language": "TypeScript",
+      "stars": 0,
+      "added": "2026-09-21"
     }
   ]
 }
