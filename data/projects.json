@@ -3126,18 +3126,6 @@
       "pushed": "2026-09-17"
     },
     {
-      "name": "jev-finance-benchmark",
-      "repo": "hifizz/jev-finance-benchmark",
-      "site": null,
-      "description": "typesafe.ai model jev finance benchmark",
-      "category": "research",
-      "language": null,
-      "stars": 0,
-      "added": "2026-09-17",
-      "created": "2026-09-17",
-      "pushed": "2026-09-17"
-    },
-    {
       "name": "jev-pick-and-place-study",
       "repo": "tryaksh/jev-pick-and-place-study",
       "site": null,
@@ -5829,7 +5817,7 @@
       "repo": "qddegtya/qualm",
       "site": null,
       "description": "Typed decisions from a System One model. An uncertain answer is a different type from a confident one — and the compiler makes you handle it.",
-      "category": "apps",
+      "category": "sdks",
       "language": "TypeScript",
       "stars": 1,
       "added": "2026-09-18",
@@ -8210,6 +8198,117 @@
       "category": "agents",
       "language": "Python",
       "stars": 1,
+      "added": "2026-09-20"
+    },
+    {
+      "name": "Jev-AV",
+      "repo": "newuser7171/antivirus",
+      "site": null,
+      "description": "Antivirus scanner and real-time defense sentinel: extracts structural features from executables, scripts, and documents (entropy, hashes, strings, PE imports) and has Jev judge whether each is malicious.",
+      "category": "apps",
+      "language": "Python",
+      "stars": 2,
+      "added": "2026-09-20"
+    },
+    {
+      "name": "magic-jev",
+      "repo": "acharyaanusha/magic-jev",
+      "site": null,
+      "description": "A Magic 8 Ball for pull requests: click the ball and it answers \"should I approve this?\" with one of the 20 classic phrases, chosen by Jev from the PR's real signals in about 200 ms.",
+      "category": "agents",
+      "language": "TypeScript",
+      "stars": 1,
+      "added": "2026-09-20"
+    },
+    {
+      "name": "jev-gates",
+      "repo": "rashedInt32/jev-gates",
+      "site": null,
+      "description": "Six hook gates for Claude Code that catch broken rules, out-of-scope edits, unfinished asks, and false claims, each judged by Jev against a fixed checklist and one piece of evidence.",
+      "category": "agents",
+      "language": "TypeScript",
+      "stars": 0,
+      "added": "2026-09-20"
+    },
+    {
+      "name": "jev-lens.nvim",
+      "repo": "rashedInt32/jev-lens.nvim",
+      "site": null,
+      "description": "Neovim popup for jev-lens verdicts: do I need to look, which files, and strip the debris.",
+      "category": "integrations",
+      "language": "Lua",
+      "stars": 0,
+      "added": "2026-09-20"
+    },
+    {
+      "name": "typesafe-sdk-go (unimtx)",
+      "repo": "unimtx/typesafe-sdk-go",
+      "site": null,
+      "description": "Community Go SDK for the TypeSafe System One API with typed Choice, Score, and Noul questions plus retries, contexts, and structured errors.",
+      "category": "sdks",
+      "language": "Go",
+      "stars": 1,
+      "added": "2026-09-20"
+    },
+    {
+      "name": "scala-jev-sdk",
+      "repo": "ticofab/scala-jev-sdk",
+      "site": null,
+      "description": "Effect-agnostic Scala 3 client for the System One API that runs on any sttp backend (Future, cats-effect, ZIO, Monix, or blocking) with answers typed by question value.",
+      "category": "sdks",
+      "language": "Scala",
+      "stars": 6,
+      "added": "2026-09-20"
+    },
+    {
+      "name": "SEO audit cost study driven by Jev triage",
+      "repo": null,
+      "site": null,
+      "description": "Technical SEO audit cost study from Boring Tools Kit where Jev ranks striking-distance fixes and content gaps by calibrated probability.",
+      "category": "articles",
+      "language": null,
+      "stars": 0,
+      "added": "2026-09-20",
+      "url": "https://boringtoolskit.com/blog/seo-audit-cost-2026/"
+    },
+    {
+      "name": "openpoke-meets-jev",
+      "repo": "0xShin0221/openpoke-meets-jev",
+      "site": null,
+      "description": "Fork of OpenPoke where the yes/no decisions go to Jev instead of Claude Sonnet, with a same-inputs A/B against the replaced LLM decision and a 43,776-request adversarial run on the injection gate.",
+      "category": "research",
+      "language": "Python",
+      "stars": 1,
+      "added": "2026-09-20"
+    },
+    {
+      "name": "jev-reach",
+      "repo": "rashedInt32/jev-reach",
+      "site": null,
+      "description": "chrome-devtools-mcp plus one tool: Jev walks the browser to the right spot, then your agent makes a single devtools call there.",
+      "category": "browser",
+      "language": "TypeScript",
+      "stars": 0,
+      "added": "2026-09-20"
+    },
+    {
+      "name": "jev-code (rhighs)",
+      "repo": "rhighs/jev-code",
+      "site": null,
+      "description": "Interactive TypeScript coding CLI with typed routing, decision programs, and validated formal trees driven by Jev.",
+      "category": "agents",
+      "language": "TypeScript",
+      "stars": 17,
+      "added": "2026-09-20"
+    },
+    {
+      "name": "Jev Auto Router",
+      "repo": "miniLV/Jev-Auto-Router",
+      "site": "https://minilv.github.io/2026/08/03/codex-auto-router/",
+      "description": "Per-call GPT model routing for Codex: Jev chooses model and effort, a local Responses proxy keeps the tool loop intact, then independent verification and Router Compass check whether the task still passed.",
+      "category": "agents",
+      "language": "TypeScript",
+      "stars": 2,
       "added": "2026-09-20"
     }
   ]
