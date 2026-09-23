@@ -7234,7 +7234,7 @@
       "name": "Augustus",
       "repo": "24601/Augustus",
       "site": "https://24601.github.io/Augustus/",
-      "description": "Design-judgment skill for the decision-model class (classifiers, enc/dec, specialized AR heads, System One); TypeSafe Jev is the dominant exemplar. Composition algebra, question design, and a validation gate.",
+      "description": "Independent agent skill for finding, building, evaluating, and improving decision-model systems with composition rules, evaluation harnesses, and bounded prompt/program optimization; TypeSafe Jev is the default hosted exemplar.",
       "category": "agents",
       "language": "Python",
       "stars": 6,
